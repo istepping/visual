@@ -24,16 +24,35 @@
     </style>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=U3q69k0Dv0GCYNiiZeHPf7BS"></script>
     <script type="text/javascript" src="http://unpkg.com/inmap/dist/inmap.min.js"></script>
-    <title>测试示例</title>
+    <title>飞机航班可视化</title>
 </head>
 <body>
 <div id="allmap"></div>
 </body>
-
 </html>
 <script>
-    let data = [{"from":{"name":"广州","coordinates":[113.270793,23.135308]},"to":{"name":"衡山","coordinates":[112.612787,27.317599]},"count":1},{"from":{"name":"广州","coordinates":[113.270793,23.135308]},"to":{"name":"北京","coordinates":[116.413554,39.911013]},"count":2},{"from":{"name":"广州","coordinates":[113.270793,23.135308]},"to":{"name":"三亚","coordinates":[109.518646,18.258217]},"count":3},{"from":{"name":"广州","coordinates":[113.270793,23.135308]},"to":{"name":"上海","coordinates":[121.480237,31.236305]},"count":4},{"from":{"name":"广州","coordinates":[113.270793,23.135308]},"to":{"name":"韶关","coordinates":[113.603757,24.816174]},"count":4}]
-    var inmap = new inMap.Map({
+    let data = [{
+        "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
+        "to": {"name": "衡山", "coordinates": [112.612787, 27.317599]},
+        "count": 1
+    }, {
+        "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
+        "to": {"name": "北京", "coordinates": [116.413554, 39.911013]},
+        "count": 2
+    }, {
+        "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
+        "to": {"name": "三亚", "coordinates": [109.518646, 18.258217]},
+        "count": 3
+    }, {
+        "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
+        "to": {"name": "上海", "coordinates": [121.480237, 31.236305]},
+        "count": 4
+    }, {
+        "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
+        "to": {"name": "韶关", "coordinates": [113.603757, 24.816174]},
+        "count": 4
+    }]
+    let inmap = new inMap.Map({
         id: 'allmap',
         skin: "Blueness",
         center: [112.03956, 26.063677],
@@ -44,7 +63,7 @@
             min: 5
         },
     });
-    var overlay = new inMap.MoveLineOverlay({
+    let overlay = new inMap.MoveLineOverlay({
         style: {
             point: { //散点配置
                 tooltip: {
@@ -74,7 +93,8 @@
                     },
                 },
                 event: {
-                    onMouseClick: function (item) {}
+                    onMouseClick: function (item) {
+                    }
                 }
             },
             line: { //线的配置
