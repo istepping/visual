@@ -1,7 +1,26 @@
 function requestAirportData() {
-    //返回航班Json数据
+    $.ajax({
+        url:"https://www.tianqiapi.com/api/",
+        data:"version=v1&city=济南",
+        dataType:'json',
+        type:"get",
+        success:function (res) {
+            console.log(res)
+        }
+    });
+    $.ajax({
+        url:"https://flight.qunar.com/touch/api/domestic/wbdflightlist/",
+        data:"departureCity=%E5%8C%97%E4%BA%AC&arrivalCity=%E6%B7%B1%E5%9C%B3&departureDate=2018-06-12",
+        dataType:'json',
+        type:"get",
+        success:function (res) {
+            console.log(res)
+        },
+        fail:function (error) {
+            console.log(error)
+        }
+    })
 }
-
 function requestWeatherData() {
     return {
         "cityid": "101120201",//城市ID
@@ -17,7 +36,7 @@ function getData() {
 }
 
 function showData(center, data) {
-    var inmap = new inMap.Map({
+    var map = new inMap.Map({
         id: 'allmap',
         skin: "Blueness",
         center: center,
@@ -91,13 +110,15 @@ function showData(center, data) {
         data: data,
 
     });
-    inmap.add(overlay);
+    map.add(overlay);
 }
 
 function changeCity() {
     let cityName = prompt("请输入城市");
-    document.getElementById('airport').setAttribute(text, cityName);
+    $("#btn_city").html(cityName);
+    showData(center, data);
 }
+
 
 let data = [{
     "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
@@ -126,3 +147,4 @@ let data = [{
     }];
 let center = [113.270793, 23.135308];
 showData(center, data);  //center:[113.270793,23.135308],data:数据
+requestAirportData();
