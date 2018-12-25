@@ -1,16 +1,7 @@
 function requestAirportData() {
     $.ajax({
-        url:"https://www.tianqiapi.com/api/",
-        data:"version=v1&city=济南",
-        dataType:'json',
-        type:"get",
-        success:function (res) {
-            console.log(res)
-        }
-    });
-    $.ajax({
-        url:"https://flight.qunar.com/touch/api/domestic/wbdflightlist/",
-        data:"departureCity=%E5%8C%97%E4%BA%AC&arrivalCity=%E6%B7%B1%E5%9C%B3&departureDate=2018-06-12",
+        url:"http://127.0.0.1:8000/get_airplane_data",
+        data:"startCity=大连&endCity=北京&date=2018-12-24",
         dataType:'json',
         type:"get",
         success:function (res) {
@@ -22,11 +13,15 @@ function requestAirportData() {
     })
 }
 function requestWeatherData() {
-    return {
-        "cityid": "101120201",//城市ID
-        "update_time": "2018-12-08 08:00:00",//最后更新时间
-        "city": "青岛"
-    };
+    $.ajax({
+        url:"https://www.tianqiapi.com/api/",
+        data:"version=v1&city=济南",
+        dataType:'json',
+        type:"get",
+        success:function (res) {
+            console.log(res)
+        }
+    });
 }
 
 function getData() {
@@ -46,7 +41,7 @@ function showData(center, data) {
             max: 18,
             min: 5
         },
-    })
+    });
     var overlay = new inMap.MoveLineOverlay({
         style: {
             point: {
