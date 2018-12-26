@@ -1,33 +1,44 @@
-function requestAirportData() {
+function requestAirportData(startCity,endCity) {
     $.ajax({
-        url:"http://127.0.0.1:8000/get_airplane_data",
-        data:"startCity=大连&endCity=北京&date=2018-12-24",
-        dataType:'json',
-        type:"get",
-        success:function (res) {
+        url: "http://127.0.0.1:8000/get_airplane_data",
+        data: "startCity="+startCity+"&endCity="+endCity,
+        dataType: 'json',
+        type: "get",
+        success: function (res) {
             console.log(res)
         },
-        fail:function (error) {
+        fail: function (error) {
             console.log(error)
         }
     })
 }
+
 function requestWeatherData() {
     $.ajax({
-        url:"https://www.tianqiapi.com/api/",
-        data:"version=v1&city=济南",
-        dataType:'json',
-        type:"get",
-        success:function (res) {
+        url: "https://www.tianqiapi.com/api/",
+        data: "version=v1&city=济南",
+        dataType: 'json',
+        type: "get",
+        success: function (res) {
             console.log(res)
         }
     });
 }
 
-function getData() {
-    let jsaonData = requestWeatherData()
-
-    return []
+function getData(city) {
+    $.ajax({
+        url: "http://127.0.0.1:8000/get_visual_data",
+        data: "startCity=" + city,
+        dataType: 'json',
+        type: "get",
+        success: function (res) {
+            console.log(res);
+            showData(res[0].from.coordinates, res);
+        },
+        fail: function (error) {
+            console.log(error)
+        }
+    })
 }
 
 function showData(center, data) {
@@ -36,10 +47,10 @@ function showData(center, data) {
         skin: "Blueness",
         center: center,
         zoom: {
-            value: 6,
+            value: 5,
             show: true,
             max: 18,
-            min: 5
+            min: 3
         },
     });
     var overlay = new inMap.MoveLineOverlay({
@@ -72,8 +83,7 @@ function showData(center, data) {
                 },
                 event: {
                     onMouseClick: function (item) {
-                        var d = document.getElementById('airport');
-                        d.innerHTML = '233333';
+                        console.log(item)
                     }
                 },
             },
@@ -85,6 +95,11 @@ function showData(center, data) {
                         shadowColor: 'rgba(255, 250, 50, 1)',
                         shadowBlur: 20,
                         lineOrCurve: "curve"
+                    }
+                },
+                event: {
+                    onMouseClick: function (item) {
+                        requestAirportData(item[0].properties.from.name,item[0].properties.to.name)
                     }
                 }
             },
@@ -111,7 +126,7 @@ function showData(center, data) {
 function changeCity() {
     let cityName = prompt("请输入城市");
     $("#btn_city").html(cityName);
-    showData(center, data);
+    getData(cityName);
 }
 
 
