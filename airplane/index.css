@@ -7,27 +7,62 @@ html {
 }
 
 #allmap {
-    width: 70%;
+    width: 80%;
     height: 100%;
     float: left;
 }
 
 #airport{
-    width: 30%;
-    height: 50%;
+    width: 20%;
+    height: 70%;
     float: left;
 }
 
 #weather{
-    width: 30%;
-    height: 50%;
-    background: blue;
+    width: 20%;
+    height: 30%;
     float: left;
 }
-#btn_city{
-    font-size: 10pt;
-}
+
 p {
     margin-left: 5px;
     font-size: 14px;
+}
+.button { /* 按钮美化 */
+    width: 100px; /* 宽度 */
+    height: 25px; /* 高度 */
+    border-width: 0px; /* 边框宽度 */
+    border-radius: 3px; /* 边框半径 */
+    background: #1E90FF; /* 背景颜色 */
+    cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+    outline: none; /* 不显示轮廓线 */
+    font-family: Microsoft YaHei; /* 设置字体 */
+    color: white; /* 字体颜色 */
+    font-size: 17px; /* 字体大小 */
+}
+.button:hover { /* 鼠标移入按钮范围时改变颜色 */
+    background: #5599FF;
+}
+.input{
+    border: 1px solid #ccc;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+.input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+.box1{
+    background-color: rgb(86,98,130);
+}
+#btn_city{
+    font-size: 10pt;
 }
