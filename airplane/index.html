@@ -15,7 +15,12 @@
 <div id="airport">
     <button id="btn_city" onclick="changeCity()">广州</button>
 </div>
-<div id="weather"></div>
+<div id="weather" class="box1" style="border:none;">
+    <span style="color:blue;font-weight:bold">天气</span>
+    <input placeholder="请输入城市名" id="name" name="name" type="text" />
+    <button type="button" class="button" onclick="changeData()">查询天气</button>
+    <iframe id="iframe" scrolling="no" src="https://tianqiapi.com/api.php?style=ts&skin=pitaya&color=fff&city=" frameborder="0" width="500" height="220" allowtransparency="true"></iframe>
+</div>
 </body>
 </html>
 <script type="text/javascript" src="index.js"></script>

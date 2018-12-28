@@ -1,7 +1,7 @@
-function requestAirportData(startCity,endCity) {
+function requestAirportData(startCity, endCity) {
     $.ajax({
         url: "http://127.0.0.1:8000/get_airplane_data",
-        data: "startCity="+startCity+"&endCity="+endCity,
+        data: "startCity=" + startCity + "&endCity=" + endCity,
         dataType: 'json',
         type: "get",
         success: function (res) {
@@ -83,7 +83,8 @@ function showData(center, data) {
                 },
                 event: {
                     onMouseClick: function (item) {
-                        console.log(item)
+                        document.getElementById('name').value=item[0].name;
+                        changeData();
                     }
                 },
             },
@@ -99,7 +100,7 @@ function showData(center, data) {
                 },
                 event: {
                     onMouseClick: function (item) {
-                        requestAirportData(item[0].properties.from.name,item[0].properties.to.name)
+                        requestAirportData(item[0].properties.from.name, item[0].properties.to.name)
                     }
                 }
             },
@@ -129,6 +130,14 @@ function changeCity() {
     getData(cityName);
 }
 
+function readtext() {
+    var name = document.getElementById("name").value;
+    return name;
+}
+
+function changeData() {
+    document.getElementById('iframe').src = "https://tianqiapi.com/api.php?style=ts&skin=pitaya&city=" + readtext();
+}
 
 let data = [{
     "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
