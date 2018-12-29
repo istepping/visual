@@ -78,66 +78,27 @@
 </head>
 <body>
 <div id="box">
-	<header>
-		<div id="logo">
-			『星云•航空数据可视化平台』
+	<div id="search">
+		abc
+		<div id="search_title">星云•search</div><i class="fa fa-close"></i>
+		<div id="headType">
+			<div id="headType_all" class="headType_class">全部</div>
+			<div id="headType_home">国内</div>
+			<div id="headType_country">国际</div>
 		</div>
-		<div id="info">
-			<code id="typingInfo" class="typing1">
-				<i>2018年</i><i id="infoTime">3月24日  ~  2018年3月30日</i>，<span id="typingInfoCity">成都市</span><code id="infoType"></code><span id="infoNumFlights">924</span>架次。
-				<code id="infoHome_country">通往全球</code><span id="infoNumCitys">0</span>个城市 <span id="infoCountry">0</span><code id="info_moText">个国家和地区。</code>
-			</code>
-		</div>
-		<i class="fa fa-list-ul" title="侧边栏" tool="sideBar"></i>
-		<i class="fa fa-search" title="搜索 CTRL+F" tool="search"></i>
-		<i class="fa fa-arrows-alt" title="全屏 (点击任意一处/键盘按下任意键)" tool="FullScreen"></i>
-		<i class="fa fa-arrow-left" title="回退到主页" tool="back"></i>
-		<i class="fa fa-tags" title="切换 单次航线/聚合统计图表 ↑ ↓" tool="switch"></i>
-		<i class="fa fa-language" title="打开百度翻译" tool="language"></i>
-		<i class="fa fa-question-circle-o" title="使用帮助" tool="help"></i>
-		<i class="fa fa-commenting" title="在线交流" tool="chat"></i>
-		<div id="optionTool">
-			<i class="fa fa-flag-checkered" title="双选/国家" checked='false' tool="optionCounty"></i>
-			<i class="fa fa-building" title="双选/城市" checked='false' tool="optionCity"></i>
-			<i class="fa fa-eye" title="查看全景" checked='true' style="color:rgba(0,245,255,1);border: 0.02rem solid rgba(0,245,255,1);" tool="optionEye"></i>
-		</div>
-
-	</header>
-	<div id="chart" class="indexPageAnimation">
-
-		<div id="indexView">
-			<div chart="1"></div>
-			<div chart="2"></div>
-			<div chart="3"></div>
-			<div chart="4"></div>
-			<div chart="5"></div>
-			<div id="chartSum3">
+		<div id="search_search" class="search_center">
+			<i class="fa fa-search"></i><input id="searchInput" class="searchInput" type="text" placeholder="城市/国家/航班号查询" />
+			<i class="fa fa-calendar"></i><input id="searchDate" class="searchInput" type="text" value="2018-2-3 - 2018-2-6" />
+			<input id="searchSingleDate" class="searchInput" type="text" value="2018-2-1" />
+			<div id="search_result_box">
+				<i>想查询点什么,请告诉星云哦!</i>
 			</div>
-			<div chart="7"></div>
-			<div chart="8">
-				<div id="chart8Xian"></div>
-				<i id="chart8FlightNum">0</i>
-				<i id="chart8FlightNumTitle">月均航班数 / 架次</i>
-				<i id="chart8RankingTitle">全球航空繁荣排名</i>
-				<i id="chart8Ranking">0</i><i id="chart8Ranksplit">/</i><i id="chart8RankSum">3982</i>
-			</div>
-			<i class="fa fa-arrow-circle-o-left" title="弹出日历"></i>
-			<div chart="9"></div>
-		</div>
-
-		<div id="secondPage" class="secondPageAnimationClose">
-			<div id="secondPageMap"></div>
-			<div id="secondPageMapLeida"></div>
-			<div id="secondPageMapXy"></div>
-			<div id="secondCity">
-				<div id="secondCityName"><span>北京</span> <i class="fa fa-long-arrow-right"></i> <span>香港特别行政区</span></div>
-				<div id="secondFlyName"><span>北京首都国际机场</span> <span>香港国际机场</span> </div>
+			<div id="search_select">
+				<div selectName="city"><i class="fa fa-building-o"></i>城市名</div>
+				<div selectName="country"><i class="fa fa-flag-checkered"></i>国家名</div>
+				<div selectName="flyNum"><i class="fa fa-plane"></i>航班号</div>
 			</div>
 		</div>
-		<div id="optionMap">
-
-		</div>
-
 	</div>
 </div>
 </body>
