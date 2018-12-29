@@ -7,19 +7,96 @@
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=U3q69k0Dv0GCYNiiZeHPf7BS"></script>
     <script type="text/javascript" src="http://unpkg.com/inmap/dist/inmap.min.js"></script>
     <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link href="css/font.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/ui2.css"/>
     <title>飞机航班可视化</title>
+    <script>
+        function checkBrowser() {
+            if(!!window.ActiveXObject || "ActiveXObject" in window) {
+                window.location.href = 'Browser.html';
+            } else {
+                if(window.Worker && window.indexedDB) {
+                    //正确
+                } else {
+                    window.location.href = 'Browser.html'
+                }
+            }
+        };
+        checkBrowser();
+        console.time("全局");
+        let myData = {};
+        function funAllCityNum(allCityNum) {
+            myData.allCityNum = allCityNum;
+        }
+        function funAllCity(city) {
+            if(city) {
+                myData.allCity = city
+            } else {
+                console.error(arguments[1] + "错误");
+            }
+        };
+        function funAirport(allAirport) {
+            myData.allAirport = allAirport;
+        };
+        (function() {
+            //console.log("浏览器的字体大小:" + getComputedStyle(document.documentElement, false)['fontSize']);
+            let userFontSize = parseFloat(getComputedStyle(document.documentElement, false)['fontSize']);
+            let ratio = 16 / userFontSize;
+            let fontSize = (innerWidth / 1536 * 0.625) * 10 * ratio;
+            document.documentElement.style.fontSize = fontSize + "rem";
+            window.onresize = function() {
+                fontSize = (innerWidth / 1536 * 0.625) * 10 * ratio;
+                document.documentElement.style.fontSize = fontSize + "rem";
+            }
+        })();
+        (function() {
+            let script = document.createElement("script");
+            script.setAttribute("src", "js/allCity.haohao");
+            document.querySelector("head").appendChild(script);
+            let script2 = document.createElement("script");
+            script2.setAttribute("src", "js/allCityFlightNum.js");
+            document.querySelector("head").appendChild(script2);
+            let script3 = document.createElement("script");
+            script3.setAttribute("src", "js/airport.haohao");
+            document.querySelector("head").appendChild(script3);
+        })();
+    </script>
 </head>
 <body>
-<div id="allmap">
+<div id="box">
+    <header>
+        <div id="logo2">
+            『全国航空数据可视化平台』
+        </div>
+    </header>
+    <div id="chart" class="indexPageAnimation">
+        <div id="indexView">
+            <div chart="1">
+                <div id="allmap"></div>
+            </div>
+            <div chart="2">
+                <div id="airport">
+                    <button id="btn_city" onclick="changeCity()">广州</button>
+                </div>
+            </div>
+            <div chart="3">
+                <div id="weather" class="box1" style="border:none;">
+                    <span style="color:blue;font-weight:bold">天气</span>
+                    <input placeholder="请输入城市名" id="name" name="name" type="text"/>
+                    <button type="button" class="button" onclick="changeData()">查询天气</button>
+                    <iframe id="iframe" scrolling="no" src="https://tianqiapi.com/api.php?style=ts&skin=pitaya&color=fff&city="
+                            frameborder="0" width="500" height="220" allowtransparency="true"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div id="airport">
-    <button id="btn_city" onclick="changeCity()">广州</button>
+<div id="loading">
+    <div id="loading1"></div>
+    <div id="loading2"></div>
 </div>
-<div id="weather" class="box1" style="border:none;">
-    <span style="color:blue;font-weight:bold">天气</span>
-    <input placeholder="请输入城市名" id="name" name="name" type="text" />
-    <button type="button" class="button" onclick="changeData()">查询天气</button>
-    <iframe id="iframe" scrolling="no" src="https://tianqiapi.com/api.php?style=ts&skin=pitaya&color=fff&city=" frameborder="0" width="500" height="220" allowtransparency="true"></iframe>
+<div id="loading_text">
+    <div id="loading_text_title">数据加载中...</div>
 </div>
 </body>
 </html>

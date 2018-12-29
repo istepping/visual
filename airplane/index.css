@@ -5,25 +5,19 @@ html {
     margin: 0;
     /*font-family: "微软雅黑";*/
 }
-
 #allmap {
-    width: 80%;
+    width: 100%;
     height: 100%;
-    float: left;
 }
-
 #airport{
-    width: 20%;
-    height: 70%;
-    float: left;
+    width: 100%;
+    height: 100%;
 }
-
 #weather{
-    width: 20%;
-    height: 30%;
-    float: left;
+    font-size: 0.26rem;
+    width: 100%;
+    height: 100%;
 }
-
 p {
     margin-left: 5px;
     font-size: 14px;
@@ -65,4 +59,20 @@ p {
 }
 #btn_city{
     font-size: 10pt;
+}
+#logo2 {
+    margin: auto;
+    animation: logo 10s infinite linear alternate;
+    width: 5rem;
+    letter-spacing: -.02rem;
+    font: 0.4rem/0.6rem "宋体", "微软雅黑";
+    -webkit-text-stroke: .02rem transparent;
+    color: rgba(0, 245, 255, 0.3);
+    -webkit-box-reflect: below -0.4rem -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1) 30%, rgba(255, 255, 255, 0.3));
+    box-reflect: below -0.4rem linear-gradient(top, rgba(0, 0, 250, 0), rgba(250, 250, 250, 0.2) 30%, rgba(250, 250, 250, 0.5));
+    background: linear-gradient(-30deg, rgba(0, 245, 255, 0) .2rem, rgba(0, 245, 255, 1) .4rem, rgba(50, 245, 255, 0) .6rem) no-repeat;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    /*-webkit-text-fill-color:transparent;*/
 }
