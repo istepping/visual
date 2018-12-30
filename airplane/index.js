@@ -5,10 +5,11 @@ function requestAirportData(startCity, endCity) {
         dataType: 'json',
         type: "get",
         success: function (res) {
-            console.log(res)
+            console.log(res);
+            showAirLineData(res);
         },
         fail: function (error) {
-            console.log(error)
+            console.log(error);
         }
     })
 }
@@ -43,6 +44,50 @@ function getData(city) {
             console.log(error)
         }
     })
+}
+
+function changeStartAndEndCity() {
+    let startCity = $("#searchInputStart").val();
+    let endCity = $("#searchInputEnd").val();
+    document.querySelector("#loading").style.display = 'block';
+    document.querySelector("#loading_text").style.display = 'block';
+    $.ajax({
+        url: "http://127.0.0.1:8000/get_visual_data_with_end",
+        data: "startCity=" + startCity + "&endCity=" + endCity,
+        dataType: 'json',
+        type: "get",
+        success: function (res) {
+            console.log(res);
+            document.querySelector("#loading").style.display = 'none';
+            document.querySelector("#loading_text").style.display = 'none';
+            showData(res[0].from.coordinates, res);
+            requestAirportData(startCity, endCity);
+        },
+        fail: function (error) {
+            console.log(error)
+        }
+    })
+}
+
+function showAirLineData(res) {
+    console.log("显示数据");
+    console.log(res);
+    if (res.msg === "success") {
+        $("#start_time").html(res.result[0].planTime);
+        $("#during_time").html(res.result[0].flightTime);
+        $("#end_time").html(res.result[0].planArriveTime);
+        $("#start_airplane").html(res.result[0].from);
+        $("#airplane").html(res.result[0].airLines);
+        $("#end_airplane").html(res.result[0].to);
+        $("#fromCityName").html(res.result[0].fromCityName);
+        $("#toCityName").html(res.result[0].toCityName);
+        $("#flightNo").html(res.result[0].flightNo);
+        $("#airLine").html(res.result[0].airLine);
+        $("#flightRate").html(res.result[0].flightRate);
+        $("#week").html(res.result[0].week);
+    } else {
+        alert("该航线没有航班信息!");
+    }
 }
 
 function showData(center, data) {
@@ -87,7 +132,7 @@ function showData(center, data) {
                 },
                 event: {
                     onMouseClick: function (item) {
-                        document.getElementById('name').value=item[0].name;
+                        document.getElementById('name').value = item[0].name;
                         changeData();
                     }
                 },
@@ -129,7 +174,7 @@ function showData(center, data) {
 }
 
 function changeCity() {
-    let cityName=$("#searchInput").val();
+    let cityName = $("#searchInput").val();
     getData(cityName);
 }
 
