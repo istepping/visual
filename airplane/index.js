@@ -26,6 +26,8 @@ function requestWeatherData() {
 }
 
 function getData(city) {
+    document.querySelector("#loading").style.display = 'block';
+    document.querySelector("#loading_text").style.display = 'block';
     $.ajax({
         url: "http://127.0.0.1:8000/get_visual_data",
         data: "startCity=" + city,
@@ -33,6 +35,8 @@ function getData(city) {
         type: "get",
         success: function (res) {
             console.log(res);
+            document.querySelector("#loading").style.display = 'none';
+            document.querySelector("#loading_text").style.display = 'none';
             showData(res[0].from.coordinates, res);
         },
         fail: function (error) {
@@ -125,8 +129,7 @@ function showData(center, data) {
 }
 
 function changeCity() {
-    let cityName = prompt("请输入城市");
-    $("#btn_city").html(cityName);
+    let cityName=$("#searchInput").val();
     getData(cityName);
 }
 
@@ -139,31 +142,5 @@ function changeData() {
     document.getElementById('iframe').src = "https://tianqiapi.com/api.php?style=ts&skin=pitaya&city=" + readtext();
 }
 
-let data = [{
-    "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
-    "to": {"name": "衡山", "coordinates": [112.612787, 27.317599]},
-    "count": 1
-},
-    {
-        "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
-        "to": {"name": "北京", "coordinates": [116.413554, 39.911013]},
-        "count": 2
-    },
-    {
-        "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
-        "to": {"name": "三亚", "coordinates": [109.518646, 18.258217]},
-        "count": 3
-    },
-    {
-        "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
-        "to": {"name": "上海", "coordinates": [121.480237, 31.236305]},
-        "count": 4
-    },
-    {
-        "from": {"name": "广州", "coordinates": [113.270793, 23.135308]},
-        "to": {"name": "韶关", "coordinates": [113.603757, 24.816174]},
-        "count": 4
-    }];
-let center = [113.270793, 23.135308];
-showData(center, data);  //center:[113.270793,23.135308],data:数据
-requestAirportData();
+
+getData("广州");

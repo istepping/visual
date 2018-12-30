@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html manifest="index.appcache">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="cache-control" content="max-age=3600">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<!--web app全屏-->
+	<!--<meta name="apple-mobile-web-app-capable" content="yes" />-->
+	<!--隐藏状态栏-->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<!--uc全屏  qq全屏-->
+	<!--<meta name="full-screen" content="yes">-->
+	<!--<meta name="browsermode" content="application">-->
+	<!--<meta name="x5-orientation" content="portrait">-->
+	<!--<meta name="x5-fullscreen" content="true">-->
+	<!--<meta name="x5-page-mode" content="app">-->
+	<title>星云航空数据可视化平台</title>
+	<link href="img/favicon.png" rel="shortcut icon" />
+
+	<script>
+        function checkBrowser() {
+            if(!!window.ActiveXObject || "ActiveXObject" in window) {
+                window.location.href = 'Browser.html';
+            } else {
+                if(window.Worker && window.indexedDB) {
+                    //正确
+                } else {
+                    window.location.href = 'Browser.html'
+                }
+            }
+        };
+        checkBrowser();
+        console.time("全局");
+        let myData = {};
+
+        function funAllCityNum(allCityNum) {
+            myData.allCityNum = allCityNum;
+        }
+
+        function funAllCity(city) {
+            if(city) {
+                myData.allCity = city
+            } else {
+                console.error(arguments[1] + "错误");
+            }
+        };
+
+        function funAirport(allAirport) {
+            myData.allAirport = allAirport;
+        };
+        (function() {
+            //console.log("浏览器的字体大小:" + getComputedStyle(document.documentElement, false)['fontSize']);
+            let userFontSize = parseFloat(getComputedStyle(document.documentElement, false)['fontSize']);
+            let ratio = 16 / userFontSize;
+            let fontSize = (innerWidth / 1536 * 0.625) * 10 * ratio;
+            document.documentElement.style.fontSize = fontSize + "rem";
+            window.onresize = function() {
+                fontSize = (innerWidth / 1536 * 0.625) * 10 * ratio;
+                document.documentElement.style.fontSize = fontSize + "rem";
+            }
+        })();
+
+        (function() {
+            let script = document.createElement("script");
+            script.setAttribute("src", "js/allCity.haohao");
+            document.querySelector("head").appendChild(script);
+            let script2 = document.createElement("script");
+            script2.setAttribute("src", "js/allCityFlightNum.js");
+            document.querySelector("head").appendChild(script2);
+            let script3 = document.createElement("script");
+            script3.setAttribute("src", "js/airport.haohao");
+            document.querySelector("head").appendChild(script3);
+        })();
+	</script>
+	<link href="style/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="style/ui2.css" />
+</head>
+<body>
+<div id="box">
+	<div id="search">
+		abc
+		<div id="search_title">星云•search</div><i class="fa fa-close"></i>
+		<div id="headType">
+			<div id="headType_all" class="headType_class">全部</div>
+			<div id="headType_home">国内</div>
+			<div id="headType_country">国际</div>
+		</div>
+		<div id="search_search" class="search_center">
+			<i class="fa fa-search"></i><input id="searchInput" class="searchInput" type="text" placeholder="城市/国家/航班号查询" />
+			<i class="fa fa-calendar"></i><input id="searchDate" class="searchInput" type="text" value="2018-2-3 - 2018-2-6" />
+			<input id="searchSingleDate" class="searchInput" type="text" value="2018-2-1" />
+			<div id="search_result_box">
+				<i>想查询点什么,请告诉星云哦!</i>
+			</div>
+			<div id="search_select">
+				<div selectName="city"><i class="fa fa-building-o"></i>城市名</div>
+				<div selectName="country"><i class="fa fa-flag-checkered"></i>国家名</div>
+				<div selectName="flyNum"><i class="fa fa-plane"></i>航班号</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
