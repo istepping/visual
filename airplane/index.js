@@ -82,7 +82,7 @@ function showAirLineData(res) {
         $("#fromCityName").html(res.result[0].fromCityName);
         $("#toCityName").html(res.result[0].toCityName);
         $("#flightNo").html(res.result[0].flightNo);
-        $("#airLine").html(res.result[0].airLine);
+        $("#airLine").html(res.result[0].airLines);
         $("#flightRate").html(res.result[0].flightRate);
         $("#week").html(res.result[0].week);
     } else {
@@ -97,7 +97,7 @@ function showData(center, data) {
         center: center,
         zoom: {
             value: 5,
-            show: true,
+            show: false,
             max: 18,
             min: 3
         },
@@ -132,7 +132,7 @@ function showData(center, data) {
                 },
                 event: {
                     onMouseClick: function (item) {
-                        document.getElementById('name').value = item[0].name;
+                        document.getElementById('w_searchInput').value = item[0].name;
                         changeData();
                     }
                 },
@@ -178,13 +178,8 @@ function changeCity() {
     getData(cityName);
 }
 
-function readtext() {
-    var name = document.getElementById("name").value;
-    return name;
-}
-
 function changeData() {
-    document.getElementById('iframe').src = "https://tianqiapi.com/api.php?style=ts&skin=pitaya&city=" + readtext();
+    document.getElementById('iframe').src = "https://tianqiapi.com/api.php?style=ts&skin=pitaya&color=00A3AC&city=" +$("#w_searchInput").val();
 }
 
 

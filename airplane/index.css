@@ -5,6 +5,41 @@ html {
     margin: 0;
     /*font-family: "微软雅黑";*/
 }
+#iframe{
+    position: absolute;
+    top: 1rem;
+    left:0.5rem;
+    width: 4rem;
+    height: 1.8rem;
+}
+#w_search_search {
+    width: 4.5rem;
+}
+#w_search_title{
+    text-align: center;
+    position: absolute;
+    cursor: move;
+    transition: 0s;
+    width: 4.95rem;
+    height: .4rem;
+    font-size: .15rem;
+    font-weight: bold;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    color: rgba(0, 245, 255, 1);
+    text-indent: .2rem;
+    background: rgba(0, 132, 255, 0.8);
+}
+#w_searchInput{
+    margin-left: 0.2rem;
+    width: 3.5rem;
+    height: .3rem;
+    border: none;
+    background: rgba(0, 0, 255, 0);
+    border-bottom: 0.015rem solid black;
+    transition: .5s;
+    color: white;
+}
 #searchInputStart{
     margin-left: 0.2rem;
     width: 1.6rem;

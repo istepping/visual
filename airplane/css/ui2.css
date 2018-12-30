@@ -878,7 +878,11 @@ header i {
     left: 0.5rem;
     top: 1rem;
 }
-
+.search_center2 {
+    position: absolute;
+    left: 0.5rem;
+    top: -0.2rem;
+}
 #search_search {
     width: 4.5rem;
 }
@@ -1013,6 +1017,10 @@ header i {
     color: rgba(0, 245, 255, 1);
 }
 #search_search2 .fa-search {
+    font-size: .2rem;
+    color: rgba(0, 245, 255, 1);
+}
+#w_search_search .fa-search {
     font-size: .2rem;
     color: rgba(0, 245, 255, 1);
 }
