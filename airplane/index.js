@@ -182,5 +182,4 @@ function changeData() {
     document.getElementById('iframe').src = "https://tianqiapi.com/api.php?style=ts&skin=pitaya&color=00A3AC&city=" +$("#w_searchInput").val();
 }
 
-
 getData("广州");

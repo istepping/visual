@@ -21,10 +21,23 @@
                     window.location.href = 'Browser.html'
                 }
             }
-        }
+        };
         checkBrowser();
         console.time("全局");
         let myData = {};
+        function funAllCityNum(allCityNum) {
+            myData.allCityNum = allCityNum;
+        }
+        function funAllCity(city) {
+            if(city) {
+                myData.allCity = city
+            } else {
+                console.error(arguments[1] + "错误");
+            }
+        };
+        function funAirport(allAirport) {
+            myData.allAirport = allAirport;
+        };
         (function() {
             //console.log("浏览器的字体大小:" + getComputedStyle(document.documentElement, false)['fontSize']);
             let userFontSize = parseFloat(getComputedStyle(document.documentElement, false)['fontSize']);
@@ -35,6 +48,17 @@
                 fontSize = (innerWidth / 1536 * 0.625) * 10 * ratio;
                 document.documentElement.style.fontSize = fontSize + "rem";
             }
+        })();
+        (function() {
+            let script = document.createElement("script");
+            script.setAttribute("src", "js/allCity.haohao");
+            document.querySelector("head").appendChild(script);
+            let script2 = document.createElement("script");
+            script2.setAttribute("src", "js/allCityFlightNum.js");
+            document.querySelector("head").appendChild(script2);
+            let script3 = document.createElement("script");
+            script3.setAttribute("src", "js/airport.haohao");
+            document.querySelector("head").appendChild(script3);
         })();
     </script>
 </head>
@@ -54,59 +78,23 @@
                 <div id="search">
                     <div id="search_title">航班•搜索</div>
                     <div id="headType">
-                        <div id="headType_city" class="item_select" onclick="changeItem(this)">城市</div>
-                        <div id="headType_plane" class="item_normal" onclick="changeItem(this)">航线</div>
+                        <div id="headType_all" class="headType_class">城市</div>
+                        <div id="headType_home">航线</div>
                     </div>
                     <div id="search_search" class="search_center">
                         <i class="fa fa-search" onclick="changeCity()"></i><input id="searchInput" class="searchInput" type="text" placeholder="城市查询" />
                     </div>
-                    <div id="search_search2" class="search_center">
-                        <i class="fa fa-search" onclick="changeStartAndEndCity()"></i><input id="searchInputStart" type="text" placeholder="出发城市" />
-                      </i><input id="searchInputEnd" type="text" placeholder="到达城市" />
-                    </div>
-                    <div id="search_content">
-                        <div id="search_content_body">
-                            <div id="search_content_body_time">
-                                <div id="start_time">07:45</div>
-                                <div id="line1">——————</div>
-                                <div id="during_time">2h39m</div>
-                                <div id="line2">——————</div>
-                                <div id="line3">></div>
-                                <div id="end_time">11:00</div>
-                            </div>
-                            <div id="search_content_body_place">
-                                <div id="start_airplane">新白云国际机场</div>
-                                <div id="airplane">中国东方航空公司</div>
-                                <div id="end_airplane">中川机场</div>
-                            </div>
-                        </div>
-                        <div id="search_content_detail">
-                            <div id="fromCityNameLabel">出发城市:</div>
-                            <div id="fromCityName">广州</div>
-                            <div id="toCityNameLabel">到达城市:</div>
-                            <div id="toCityName">兰州</div>
-                            <div id="flightNoLabel">航班号:</div>
-                            <div id="flightNo">MU2607</div>
-                            <div id="airLineLabel">航空公司:</div>
-                            <div id="airLine">中国东方航空公司</div>
-                            <div id="flightRateLabel">准点率:</div>
-                            <div id="flightRate">86%</div>
-                            <div id="weekLabel">周次:</div>
-                            <div id="week">一,二,三,四,五,日</div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div chart="3">
-                <div id="w_search">
-                    <div id="w_search_title">天气•搜索</div>
-                    <div id="w_search_search" class="search_center2">
-                        <i class="fa fa-search" onclick="changeData()"></i><input id="w_searchInput" class="searchInput" type="text" placeholder="天气查询" />
-                    </div>
+                <div id="weather" class="box1" style="border:none;">
+                    <span style="color:blue;font-weight:bold">天气</span>
+                    <input placeholder="请输入城市名" id="name" name="name" type="text"/>
+                    <button type="button" class="button" onclick="changeData()">查询天气</button>
+                    <iframe id="iframe" scrolling="no" src="https://tianqiapi.com/api.php?style=ts&skin=pitaya&color=fff&city="
+                            frameborder="0" width="100%" height="80%" allowtransparency="true"></iframe>
                 </div>
-                <iframe id="iframe" scrolling="no" src="https://tianqiapi.com/api.php?style=ts&skin=pitaya&color=00A3AC&city="
-                        frameborder="0" width="100%" height="80%" allowtransparency="true"></iframe>
-        </div>
+            </div>
         </div>
     </div>
 </div>
@@ -119,22 +107,5 @@
 </div>
 </body>
 </html>
-<script type="text/javascript">
-    function changeItem(e) {
-        let id=$(e).attr("id");
-        console.log(id);
-        if(id==="headType_city"){
-            $("#headType_city").attr("class","item_select");
-            $("#headType_plane").attr("class","item_normal");
-            document.querySelector("#search_search").style.display = 'block';
-            document.querySelector("#search_search2").style.display = 'none';
-        }else{
-            $("#headType_city").attr("class","item_normal");
-            $("#headType_plane").attr("class","item_select");
-            document.querySelector("#search_search").style.display = 'none';
-            document.querySelector("#search_search2").style.display = 'block';
-        }
-    }
-</script>
 <script type="text/javascript" src="index.js"></script>
 
