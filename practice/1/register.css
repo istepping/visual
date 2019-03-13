@@ -1,0 +1,23 @@
+.head{
+    width: 100%;
+    height: 18%;
+}
+.notification{
+    margin-top: 1px;
+    margin-left: 1px;
+    font-weight: 600;
+    font-size: 16pt;
+    color: red;
+}
+.table{
+    width: 15%;
+    height: 8%;
+    background-color: #c9fff5;
+    text-align: right;
+}
+.user_input{
+    width: 40%;
+}
+.input_content{
+    margin-left: 20pt;
+}
