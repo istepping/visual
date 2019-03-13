@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>改变图片</title>
+<style type="text/css">
+img{
+	border: 0px;
+	padding:3px;
+	}
+body{
+	margin:0px;
+	font-size:12px;
+	line-height:25px;
+}
+input{
+	margin-top: 5px;
+}
+</style>
+<script type="text/javascript">
+function change(){
+	var imgs=document.getElementsByTagName("img");
+	imgs[0].setAttribute("src","images/grape.jpg");
+	}
+</script>
+</head>
+
+<body style="text-align:center;">
+<img src="images/fruit.jpg" alt="水果图片" id="fruit" />
+<br /><input name="btn" type="button" value="改变图片" onclick="change()" />
+</body>
+</html>

@@ -1,0 +1,89 @@
+﻿
+--------------------------------------------------
+Path              = /Pay/weixin_code/NativeCallBack.aspx
+Time              = 2015-05-12 11:45:58
+ClientIP          = 101.226.103.63
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.pay_weixin_code_nativecallback_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_3puz104e.2.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /Pay/weixin_code/NativeCallBack.aspx
+Time              = 2015-05-12 11:45:58
+ClientIP          = 101.226.103.63
+Type              = System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Unable to connect to the remote server
+Source            = System
+HelpLink          = 
+ReflectionInfo    = Status : ConnectFailure
+                        Response : 
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+                        
+StackTrace        =    at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+                           at System.Net.HttpWebRequest.GetRequestStream()
+                           at KuaiCard.Gateway.wxcode.HttpUtil.Send(Byte[] data, String url) in F:\天运20150403\KuaiCard\KuaiCardGateway\wxcode\HttpUtil.cs:line 32
+                           at KuaiCard.Gateway.wxcode.HttpUtil.SendData(String data, String url) in F:\天运20150403\KuaiCard\KuaiCardGateway\wxcode\HttpUtil.cs:line 16
+                           at KuaiCard.Gateway.wxcode.WxPayHelper.GetPrepayId() in F:\天运20150403\KuaiCard\KuaiCardGateway\wxcode\WxPayHelper.cs:line 150
+                           at KuaiCard.Gateway.Pay.weixin_code.NativeCallBack.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeCallBack.aspx.cs:line 38
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+--------------------------------------------------
+Path              = /Pay/weixin_code/NativeCallBack.aspx
+Time              = 2015-05-12 11:45:58
+ClientIP          = 101.226.103.63
+Type              = System.Net.Sockets.SocketException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 101.226.129.200:443
+Source            = System
+HelpLink          = 
+ReflectionInfo    = ErrorCode : 10060
+                        SocketErrorCode : TimedOut
+                        NativeErrorCode : 10060
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void DoConnect(System.Net.EndPoint, System.Net.SocketAddress)
+                        
+StackTrace        =    at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+                           at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+
+--------------------------------------------------
+Path              = /news.aspx?Type=2
+Time              = 2015-05-12 13:22:07
+ClientIP          = 157.55.39.19
+Type              = System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The file '/news.aspx' does not exist.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void CheckVirtualFileExists(System.Web.VirtualPath)
+                        
+StackTrace        =    at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+                           at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+                           at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+                           at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+                           at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+                           at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+                           at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+                           at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+                           at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

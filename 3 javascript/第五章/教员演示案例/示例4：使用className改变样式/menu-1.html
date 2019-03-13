@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>使用className改变样式</title>
+<style type="text/css">
+li{
+	font-size: 12px;
+	color: #ffffff;
+	background-image: url(images/bg1.gif);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 33px;
+	width:104px;
+	line-height:38px;
+	float:left;
+	list-style:none;
+	}
+.out{
+	background-image: url(images/bg1.gif);
+	}
+.over{
+	background-image: url(images/bg2.gif);
+	color:#ffff00;
+	font-weight:bold;
+	cursor:hand;
+	}
+</style>
+</head>
+
+<body>
+<ul>
+<li>资讯动态</li>
+<li>产品世界</li>
+<li>市场营销</li>
+</ul>
+<script type="text/javascript">
+var len=document.getElementsByTagName("li");
+for(var i=0;i<len.length;i++){
+	len[i].onmouseover=function(){
+		this.className="over";
+		}
+	len[i].onmouseout=function(){
+		this.className="out";
+		}	
+		
+	}   
+</script>
+</body>
+</html>

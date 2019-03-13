@@ -1,0 +1,116 @@
+﻿<!DOCTYPE	html PUBLIC	"-//W3C//DTD XHTML 1.1 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html	xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"	/>
+ <title>贵美商城</title>
+ <link rel="stylesheet"	type="text/css"	href="css/global.css"	/>
+ <link rel="stylesheet"	type="text/css"	href="css/layout.css"	/>
+		
+<script type="text/javascript">
+// snameCheck() && passCheck()
+function validateform(){
+	if(snameCheck() && passCheck()) 
+	   return true;
+	 else
+	   return false;
+}
+
+// Screen Name Validation
+function snameCheck(){
+var sname = document.getElementsByName("sname")[0].value;
+var illegalChars = /\W/;
+	if(sname.length != 0){
+		if(illegalChars.test(sname)){
+		document.getElementById("passMsg").innerHTML.replace(/'会员名无效'/,'');
+    document.getElementById("passMsg").innerHTML='会员名无效';
+		document.getElementsByName("sname")[0].select();
+		return false;
+		}
+	}
+	else
+	{
+	document.getElementById("userMsg").innerHTML.replace(/'是否忘记输入会员名？'/,'');
+ document.getElementById("userMsg").innerHTML='是否忘记输入会员名？';
+	document.getElementsByName("sname")[0].focus();
+	return false
+	}
+	if(sname!=="zhangsan"){   //验证会员名必须为张三
+	document.getElementById("userMsg").innerHTML.replace(/'是否输入的会员名有错？'/,'');
+  document.getElementById("userMsg").innerHTML='是否输入的会员名有错？';
+	document.getElementsByName("sname")[0].focus();
+	return false;
+	}
+	return true;
+}
+
+function passCheck(){
+var userpass = document.getElementsByName("pass")[0].value;
+var illegalChars = /[\W_]/;// allow only charactors and numbers
+	// Check if Password field is blank.
+	if(userpass == ""){
+		document.getElementById("passMsg").innerHTML.replace(/'未输入密码 \n" + "请输入密码'/,'');
+    document.getElementById("passMsg").innerHTML='未输入密码 \n" + "请输入密码';
+		document.getElementsByName("pass")[0].focus();
+	return false;
+	}
+	// Check if password length is less than 6 charactor.
+	if(userpass.length < 6){
+		document.getElementById("passMsg").innerHTML.replace(/'密码必须多于或等于 6 个字符。\n'/,'');
+    document.getElementById("passMsg").innerHTML='密码必须多于或等于 6 个字符。\n';
+		document.getElementsByName("pass")[0].focus();
+	return false;
+	}
+	//check if password contain illigal charactors.
+	else if(illegalChars.test(userpass)){
+		document.getElementById("passMsg").innerHTML.replace(/'密码包含非法字符'/,'');
+    document.getElementById("passMsg").innerHTML='密码包含非法字符';
+		document.getElementsByName("pass")[0].select();
+		return false;
+	}
+	if(userpass!=="123456"){    //验证密码必须为123456
+	  document.getElementById("passMsg").innerHTML.replace(/'密码错误，请重新输入！'/,'');
+    document.getElementById("passMsg").innerHTML='密码错误，请重新输入！';
+		document.getElementsByName("pass")[0].focus();
+		return false;
+	}
+	return true;
+}
+</script> 	
+</head>
+<body>
+	<div id="container">
+		<iframe id="head" runat="server" src="head.html" width="980px" height="136px" frameborder="0" scrolling="no"></iframe>
+		<div id="main" class="login_bg">
+    <form method="post" action="login_success.htm" onsubmit="return validateform()">
+  		  <table>
+		    <tbody>	  	    	
+          <tr>
+            <td><img src="images/title_login_2.png" alt="alt" /></td>
+            <td colspan="2">&nbsp;</td>
+            <td rowspan="6"><img src="images/register_right.gif" alt="alt"/></td>
+          </tr>
+          <tr class="a_l">
+            <td></td><td>会员名:</td>
+            <td>
+	           <input name="sname" type="text" onchange="snameCheck()" class="reg_text" id="sname" size="15" />（可包含 a-z、0-9 和下划线）<br /><span id="userMsg" class="red"></span></td>
+          </tr>
+          <tr class="a_l">
+            <td></td><td>密&nbsp;&nbsp;&nbsp;码:</td>
+            <td><input name="pass" type="password" onchange="passCheck()" class="reg_text" id="pass"  size="15" />（至少包含 6 个字符）<br /><span id="passMsg" class="red"></span></td>
+          </tr>
+          <tr>          	
+            <td></td><td class="h65 a_c" colspan="2">
+	            <input type="image" style="border:0px;" name="Button" src="images/login.gif" onmouseover="this.src='images/login_mouseover.gif'" onmouseout="this.src='images/login.gif'" />
+	          </td>
+          </tr>
+          <tr>
+          	<td colspan="3"><img src="images/register_leftfoot.gif" alt="alt" /></td>
+          	</tr>
+        </tbody>
+      </table>
+  	  </form>
+  	</div>
+		<iframe id="foot" runat="server" src="foot.html" width="980px" height="150px" frameborder="0" scrolling="no"></iframe>
+	</div><!--container	end-->
+</body>
+</html>		

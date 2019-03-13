@@ -1,0 +1,174 @@
+﻿
+--------------------------------------------------
+Path              = /Pay/weixin_code/Message.aspx
+Time              = 2015-05-10 09:27:44
+ClientIP          = 36.42.237.47
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.pay_weixin_code_message_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_zdnd1dlk.2.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /Pay/weixin_code/Message.aspx
+Time              = 2015-05-10 09:27:44
+ClientIP          = 36.42.237.47
+Type              = System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source            = mscorlib
+HelpLink          = 
+ReflectionInfo    = ActualValue : 
+                        ParamName : index
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void ThrowArgumentOutOfRangeException()
+                        
+StackTrace        =    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+                           at System.Collections.Generic.List`1.RemoveAt(Int32 index)
+                           at KuaiCard.Gateway.Pay.weixin_code.Message.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\Message.aspx.cs:line 46
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+--------------------------------------------------
+Path              = /Pay/weixin_code/Message.aspx
+Time              = 2015-05-10 13:44:12
+ClientIP          = 221.209.46.2
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.pay_weixin_code_message_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_zdnd1dlk.2.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /Pay/weixin_code/Message.aspx
+Time              = 2015-05-10 13:44:12
+ClientIP          = 221.209.46.2
+Type              = System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source            = mscorlib
+HelpLink          = 
+ReflectionInfo    = ActualValue : 
+                        ParamName : index
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void ThrowArgumentOutOfRangeException()
+                        
+StackTrace        =    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+                           at System.Collections.Generic.List`1.RemoveAt(Int32 index)
+                           at KuaiCard.Gateway.Pay.weixin_code.Message.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\Message.aspx.cs:line 46
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+--------------------------------------------------
+Path              = /Pay/weixin_code/NativeQrCode.aspx
+Time              = 2015-05-10 15:17:32
+ClientIP          = 112.64.235.87
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.pay_weixin_code_nativeqrcode_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_zdnd1dlk.0.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /Pay/weixin_code/NativeQrCode.aspx
+Time              = 2015-05-10 15:17:32
+ClientIP          = 112.64.235.87
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.Gateway
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void Page_Load(System.Object, System.EventArgs)
+                        
+StackTrace        =    at KuaiCard.Gateway.Pay.weixin_code.NativeQrCode.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeQrCode.aspx.cs:line 18
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+--------------------------------------------------
+Path              = /Pay/weixin_code/NativeQrCode.aspx
+Time              = 2015-05-10 15:17:32
+ClientIP          = 112.64.235.87
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.pay_weixin_code_nativeqrcode_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_zdnd1dlk.0.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /Pay/weixin_code/NativeQrCode.aspx
+Time              = 2015-05-10 15:17:32
+ClientIP          = 112.64.235.87
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.Gateway
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void Page_Load(System.Object, System.EventArgs)
+                        
+StackTrace        =    at KuaiCard.Gateway.Pay.weixin_code.NativeQrCode.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeQrCode.aspx.cs:line 18
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

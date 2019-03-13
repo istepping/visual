@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>使用DOM改变链接</title>
+<script  type="text/javascript">
+function changeLink(){
+document.getElementById("node").innerHTML="<h1>搜狐</h1>";
+document.getElementById("node").href="http://wwww.sohu.com";
+}
+
+</script>
+</head>
+
+<body>
+<a href="http://wwww.sina.com.cn" id="node"><h1>新浪</h1></a>
+<input name="btn" type="button" value="使用DOM改变链接" onclick="changeLink();" />
+</body>
+</html>

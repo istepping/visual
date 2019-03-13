@@ -1,0 +1,11 @@
+@charset "gb2312";
+/* CSS Document */
+
+body{
+	font-size:12px;	
+	line-height:20px;
+	}
+.video{
+	margin: 3px;
+	float: left;
+	}

@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>休闲网注册页面</title>
+<link href="login.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function $ (ElementID) {
+		return document.getElementById(ElementID);
+	}
+function checkEmail(){
+	var mail=$("email");
+	var divID=$("DivEmail");
+	divID.innerHTML="";
+	if(mail.value==""){
+		divID.innerHTML="Email不能为空";
+		//mail.focus();
+		return false;
+		}
+	if(mail.value.indexOf("@")==-1){
+		divID.innerHTML="Email格式不正确，必须包含@";
+		//mail.focus();
+		return false;
+		}
+	if(mail.value.indexOf(".")==-1){
+		divID.innerHTML="Email格式不正确，必须包含.";
+		//mail.focus();
+		return false;
+		}
+		//return true;
+}
+function checkPass(){
+    var pwd=$("pwd");
+	var divID=$("DivPwd");
+	divID.innerHTML="";
+	if(pwd.value==""){
+		divID.innerHTML="密码不能为空";
+		//pwd.focus();
+		return false;
+		}
+    if(pwd.value.length<6){
+		divID.innerHTML="密码必须等于或大于6个字符";
+		//pwd.focus();
+		return false;
+		}
+	//return true;
+}
+function checkRePass(){
+    var pwd=$("pwd"); //输入密码
+	var repwd=$("repwd");  //再次输入密码
+	var divID=$("DivRepwd");   
+	divID.innerHTML="";		
+	if(pwd.value!=repwd.value){
+		divID.innerHTML="两次输入的密码不一致";
+		return false;
+		}
+	//return true;
+}
+function checkUser(){
+    var user=$("user");
+	var divId=$("DivUser");
+	divId.innerHTML="";
+    if(user.value==""){
+		divId.innerHTML="姓名不能为空";
+		//user.focus();
+		return false;
+		}
+	for(var i=0;i<user.value.length;i++){
+		var j=user.value.substring(i,i+1)
+		if(j>=0){
+			divId.innerHTML="姓名中不能包含数字";
+			//user.focus();
+			return false;
+			}
+	}
+		//return true;
+	}
+</script>
+</head>
+
+<body>
+<div id="header" class="main">
+  <div id="headerLeft"><img src="images/logo.gif"/></div>
+  <div id="headerRight">注册 | 登录 | 帮助</div>
+</div>
+<div  class="main">
+<table  id="center" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td class="bold" colspan="2">注册休闲网</td>
+  </tr>
+  <form action="" method="post" name="myform"><tr>
+    <td class="left">您的Email：</td>
+    <td><input id="email" type="text" class="inputs" onblur="checkEmail()"/>
+          <div class="red" id="DivEmail"></div></td>
+  </tr>
+  <tr>
+  <td class="left">输入密码：</td>
+    <td><input id="pwd" type="password" class="inputs" onblur="checkPass()"/>
+    <div class="red" id="DivPwd"></div></td>
+  </tr>
+   <tr>
+  <td class="left">再输入一遍密码：</td>
+    <td><input id="repwd" type="password" class="inputs" onblur="checkRePass()"/>
+    <div class="red" id="DivRepwd"></div></td>
+  </tr>
+  <tr>
+  <td class="left">您的姓名：</td>
+    <td><input id="user" type="text" class="inputs" onblur="checkUser()"/>
+    <div class="red" id="DivUser"></div></td>
+  </tr>
+  <tr>
+  <td class="left">性别：</td>
+    <td><input name="sex" type="radio" value="1" /> 男
+    <input name="sex" type="radio" value="0" /> 女</td>
+  </tr>
+  <tr>
+  <td class="left">出生日期：</td>
+    <td><select name="year">
+    <script type="text/javascript">
+	for(var i=1900;i<=2009;i++){
+	document.write("<option value="+i+">"+i+"</option>");	
+		}
+	</script>
+    </select>年
+    <select name="month">
+    <script type="text/javascript">
+	for(var i=1;i<=12;i++){
+	document.write("<option value="+i+">"+i+"</option>");	
+		}
+	</script>
+    </select>月
+    <select name="day">
+    <script type="text/javascript">
+	for(var i=1;i<=31;i++){
+	document.write("<option value="+i+">"+i+"</option>");	
+		}
+	</script>
+    </select>日</td>
+  </tr>
+  <tr><td>&nbsp;</td>
+    <td ><input name="btn" type="submit" value="注册" class="rb1" /></td>
+  </tr></form>
+</table>
+
+</div>
+<div id="footer" class="main"><a href="#">关于我们</a> | <a href="#">诚聘英才</a> |<a href="#"> 联系方式</a>  | <a href="#">帮助中心</a></div>
+</body>
+</html>

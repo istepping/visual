@@ -1,0 +1,203 @@
+﻿<!DOCTYPE	html PUBLIC	"-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html	xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"	/>
+ <title>贵美商城</title>
+ <link rel="stylesheet"	type="text/css"	href="css/global.css"	/>
+ <link rel="stylesheet"	type="text/css"	href="css/layout.css"	/>
+ <script type="text/JavaScript" src="js/func.js"></script>
+<script type="text/javascript">
+var errMsg=['名字必须汉字',
+            '姓氏必须汉字',
+            '登录名无效！',
+            '密码必须多于或等于 6 个字符。',
+            '验证密码与原密码不一致！',
+            'Email地址不合法！',
+            '生日无效',
+            ];
+            
+            //[\u4E00-\u9FA5]|[\uFE30-\uFFA0]     \x00-\xff
+var pattern=[/^([\u4E00-\u9FA5]){1,}$/, 
+            /^([\u4E00-\u9FA5]){1,}$/, 
+            /^[a-zA-Z0-9_]{3,}$/,
+            /.{6,}/,
+            '',
+            /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]{2,}(\.[a-z0-9]{2,5}){1,2}$/,
+            /^[0-9]$|^[0-2][0-9]$|^3[0-1]$/
+            ];
+
+function showMsg(strName){
+	strText = arguments[1];
+	strName.parentNode.getElementsByTagName("span")[0].innerHTML='';
+	strName.parentNode.getElementsByTagName("span")[0].innerHTML+=strText;
+	}
+
+function clearMsg(strId){
+	strId.parentNode.getElementsByTagName("span")[0].innerHTML='';
+	}
+
+function regCheck(oThis){
+	  nType=arguments[1];
+	  if (nType==4) {
+	  	strCon = !(document.getElementsByName('pass')[0].value==document.getElementsByName('rpass')[0].value);
+	  	}
+	  else {
+	  	strCon = !patternCheck(pattern[nType],oThis.value);
+	  	}
+		if ( strCon ){
+			alert(errMsg[nType]);
+			return false;
+			}
+		else {
+			clearMsg(oThis);
+			return true;
+			}	
+		}		
+
+function validateform(){
+	var	oSpan   = document.getElementsByTagName("span");
+	var bIsTrue = true;
+	for (var i=0;i<oSpan.length;i++){
+		//alert(oSpan[i]);]
+	  if(bIsTrue==false){ 
+	 //	alert('输入有错，请重新检查');
+	 	oSpan[i-1].parentNode.getElementsByTagName("input")[0].focus();
+	  return false;	
+	  }
+	  oInput = oSpan[i].parentNode.getElementsByTagName("input");
+		bIsTrue=regCheck(oInput[oInput.length-1],i)&&bIsTrue;
+		}
+	if (bIsTrue==true) {
+	  return true;
+	}
+}		
+</script> 
+</head>
+
+<body>
+	<div id="container">
+		<iframe id="head" runat="server" src="head.htm" width="980px" height="136px" frameborder="0" scrolling="no"></iframe>
+
+      <form id="form1" method="post" action="register_success.htm" onsubmit="return validateform()">
+    <table id="main" class="reg_bg" cellpadding="0px">
+      <tbody>
+      <tr class="h58">
+      	<td colspan="3">&nbsp;</td>
+            <td rowspan="11">
+    			    <h4><img src="images/read.gif" alt="alt" />阅读贵美网服务协议 </h4>
+        			<textarea name="textarea" cols="30" rows="15">欢迎阅读服务条款协议，本协议阐述之条款和条件适用于您使用Gmgw.com网站的各种工具和服务。
+  本服务协议双方为贵美与贵美网用户，本服务协议具有合同效力。 
+  贵美的权利和义务
+    1.贵美有义务在现有技术上维护整个网上交易平台的正常运行，并努力提升和改进技术，使用户网上交易活动的顺利。 
+    2.对用户在注册使用贵美网上交易平台中所遇到的与交易或注册有关的问题及反映的情况，贵美应及时作出回复。 
+    3.对于在贵美网网上交易平台上的不当行为或其它任何贵美认为应当终止服务的情况，贵美有权随时作出删除相关信息、终止服务提供等处理，而无须征得用户的同意。 
+    4.因网上交易平台的特殊性，贵美没有义务对所有用户的注册资料、所有的交易行为以及与交易有关的其他事项进行事先审查。 	
+  </textarea>
+    		    </td>      	
+      </tr>
+      <tr class="register_table_line">
+        <td class="input_title" >名字：</td>
+        <td class="w507" class="input_content">
+        	&nbsp;<input name="fname" type="text" onchange="regCheck(this,0)" class="reg_text"  size="24" />
+        <span class="red"></span></td>
+      </tr>
+      <tr class="register_table_line">
+        <td class="input_title" >姓氏：</td>
+        <td class="input_content">
+        	<input name="lname" type="text" onchange="regCheck(this,1)" class="reg_text" size="24" />
+        <span class="red"></span></td>
+      </tr>
+      <tr class="register_table_line">
+        <td class="input_title"  >登录名：</td>
+        <td class="input_content">
+        	<input name="sname" type="text" onchange="regCheck(this,2)" class="reg_text"   size="24" />（可包含 a-z、0-9 和下划线）
+        <span class="red"></span></td>
+      </tr>
+      <tr class="register_table_line">
+        <td class="input_title" >密码：</td>
+        <td class="input_content">
+        	<input name="pass" type="password" onchange="regCheck(this,3)" class="reg_text"  size="26" />（至少包含 6 个字符）<span class="red"></span></td>
+      </tr>
+      <tr class="register_table_line">
+        <td class="input_title" >再次输入密码：</td>
+        <td class="input_content">
+        	<input name="rpass" onchange="regCheck(this,4)" type="password" class="reg_text" size="26" />
+        <span class="red"></span></td>
+      </tr>
+      <tr class="register_table_line">
+        <td class="input_title" >电子邮箱：</td>
+        <td class="input_content">
+        	<input name="email" onchange="regCheck(this,5)" type="text" class="reg_text" size="24" />（必须包含 @  和.字符）
+        <span class="red"></span></td>
+      </tr>
+      <tr class="register_table_line">
+        <td class="input_title" >性别：</td>
+        <td class="input_content">
+    		  <input name="gen" style="border:0px;" type="radio" value="男" checked="checked" />
+    	    <img src="images/Male.gif" width="23" height="21" alt="alt" />男&nbsp; 
+    	    <input name="gen" style="border:0px;" type="radio" value="女" class="input" />
+    	    <img src="images/Female.gif" width="23" height="21" alt="alt" />女
+        </td>
+      </tr>
+      <tr class="register_table_line">
+        <td class="input_title" >头像：</td>
+        <td class="input_content">
+        <input type="file" />
+        </td>
+      </tr>    
+      <tr class="register_table_line">
+        <td class="input_title" >爱好：</td>
+        <td class="input_content">
+    	  <label>
+    	  	<input type="checkbox" name="checkbox" value="checkbox" />
+    	  </label>
+    		  运动&nbsp;&nbsp;
+    	  <label>
+    	  <input type="checkbox" name="checkbox2" value="checkbox" />
+    	  </label>
+    		聊天&nbsp;&nbsp;
+    	  <label>
+    		<input type="checkbox" name="checkbox3" value="checkbox" />
+    	  </label>
+    		玩游戏
+    	</td>
+      </tr>
+      <tr class="register_table_line">
+        <td class="input_title">出生日期：</td>
+        <td class="input_content">
+    		<input name="nYear" class="reg_text n4" id="nYear" onfocus="this.value=''" value="yyyy" maxlength="4" />&nbsp;年&nbsp;&nbsp;
+    		   <select name="nMonth">
+    			   <option value="" selected="selected">[选择月份]</option>
+    		     <option value="0">一月</option>
+    		     <option value="1">二月</option>
+    		     <option value="2">三月</option>
+    		     <option value="3">四月</option>
+    		     <option value="4">五月</option>
+    		     <option value="5">六月</option>
+    		     <option value="6">七月</option>
+    		     <option value="7">八月</option>
+    		     <option value="8">九月</option>
+    		     <option value="9">十月</option>
+    		     <option value="10">十一月</option>
+    		     <option value="11">十二月</option>
+    		  </select>&nbsp;月&nbsp;&nbsp;
+    		  <input name="nDay" onchange="regCheck(this,6)" class="reg_text n4" onfocus="this.value=''" value="dd" size="2" maxlength="2" />日
+    	<span class="red"></span></td>
+      </tr>
+      <tr class="register_table_line">
+        <td class="input_title h35" >&nbsp;
+            </td>
+        <td class="input_content h35">
+    		<input type="image" name="Button" style="border:0px;" src="images/submit.gif" /> <img src="images/reset.gif" onclick="javascript:form1.reset();" style="cursor:pointer;" alt="重置" />
+    	</td>
+      </tr>
+      <tr>
+      <td colspan="2" class="h65">&nbsp;</td>	
+      </tr>
+      </tbody>
+    </table>	
+    </form>		
+		<iframe id="foot" runat="server" src="foot.htm" width="980px" height="150px" frameborder="0" scrolling="no"></iframe>
+	</div><!--container	end-->
+</body>
+</html>		

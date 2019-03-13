@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>变量的作用域</title>
+<script type="text/javascript">
+var i=20;
+function first(){
+	var i=5;
+	for(var j=0;j<i;j++){
+		document.write("&nbsp;&nbsp;&nbsp;&nbsp;"+j);
+	}
+}
+function second(){
+	var t=prompt("输入一个数","")
+	if(t>i){
+		document.write(t);}
+	else{
+		document.write(i);}
+	first();
+}
+</script>
+</head>
+<body onload="second()">
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+@charset "gb2312";
+/* CSS Document */
+
+*{padding:0; margin:0;}
+body{
+	font-size:13px;
+	color:#000;
+	line-height:25px;
+	 }
+.main{
+	float:none;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	clear:both;
+}
+#header{
+	background-image: url(images/bg.gif);
+	background-repeat: repeat-x;
+	height: 36px;
+	}
+#headerLeft{width:200px;
+           float:left;
+		   }
+#headerRight{width:160px;
+             float:right;
+	         color:#FFF;
+			 }
+#center{
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	width:100%;
+	
+	}
+.left{width:25%;
+      text-align:right;
+	  height:25px;
+	  }
+
+.bg{
+	background-image: url(images/dl_l_bg.gif);
+	background-repeat: repeat-y;
+	}
+.inputs{width:130px;
+height:16px;
+border:solid 1px #666666;
+float:left;
+
+}
+.bold{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	line-height:35px;
+	height:35px;
+}
+.rb1{
+	height:20x;
+	color:#fff;
+	font-size:13px;
+	background:#d32c47;
+	padding:3px 10px;
+	border-left:1px solid #fff;
+	border-top:1px solid #fff;
+	border-right:1px solid #6a6a6a;
+	border-bottom:1px solid #6a6a6a;
+	cursor:pointer;
+	}
+#footer{text-align:center;
+color:#333;
+line-height:35px;
+}
+#footer a{
+	color:#333;
+	text-decoration:underline;
+}
+#footer hover{
+	color:#333;
+	text-decoration:none;
+}
+.red{
+	color:#F00;
+	float:left;
+	padding-left:5px;
+	}

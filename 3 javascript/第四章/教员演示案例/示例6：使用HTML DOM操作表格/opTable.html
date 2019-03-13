@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>使用HTML DOM操作表格</title>
+<style type="text/css">
+body{
+	font-size:13px;
+	line-height:25px;
+	}
+table{
+	border-top: 1px solid #333;
+	border-left: 1px solid #333;
+	width:300px;
+}
+td{
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+	}
+.center{
+	text-align:center;
+}
+.title{
+	text-align:center;
+	font-weight:bold;
+	background-color: #cccccc;
+}
+      
+</style>
+<script type="text/javascript">
+function addRow(){	
+var newRow=document.getElementById("myTable").insertRow(2);
+var col1=newRow.insertCell(0);
+col1.innerHTML="幸福从天而降";
+var col2=newRow.insertCell(1);
+col2.innerHTML="&yen;18.5";
+col2.align="center";
+	}
+	
+function updateRow(){
+	var uRow=document.getElementById("myTable").rows[0];
+	uRow.className="title";
+	}
+
+function delRow(){
+    document.getElementById("myTable").deleteRow(1); 
+	}
+</script>
+</head>
+
+<body>
+<table border="0" cellspacing="0" cellpadding="0" id="myTable">
+  <tr id="row1">
+    <td>书名</td>
+    <td>价格</td>
+  </tr>
+  <tr id="row2">
+    <td>看得见风景的房间</td>
+    <td class="center">&yen;30.00</td>
+  </tr>
+  <tr id="row3">
+    <td>60个瞬间</td>
+    <td class="center">&yen;32.00</td>
+  </tr>
+</table>
+<input name="b1" type="button" value="增加一行" onclick="addRow()" />
+<input name="b2" type="button" value="删除第2行"  onclick="delRow()"/>
+<input name="b3" type="button" value="修改标题"  onclick="updateRow()"/>
+</body>
+</html>

@@ -1,0 +1,297 @@
+﻿
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 18:07:38
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174
+
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 18:14:34
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174
+
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 18:17:41
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174
+
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 18:24:46
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174
+
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 18:27:35
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174
+
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 18:31:50
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174
+
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 18:32:12
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174
+
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 18:43:15
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174
+
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 18:48:32
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174
+
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 18:55:12
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174
+
+--------------------------------------------------
+Path              = /alipayWeb/AliTranPay_Notify.aspx
+Time              = 2015-05-07 19:10:32
+ClientIP          = 98.126.199.69
+Type              = System.Messaging.MessageQueueException, System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = The queue does not exist or you do not have sufficient permissions to perform the operation.
+Source            = System.Messaging
+HelpLink          = 
+ReflectionInfo    = MessageQueueErrorCode : QueueNotFound
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String ResolveFormatNameFromQueuePath(System.String, Boolean)
+                        
+StackTrace        =    at System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+                           at System.Messaging.MessageQueue.get_FormatName()
+                           at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+                           at System.Messaging.MessageQueue.Send(Object obj, MessageQueueTransactionType transactionType)
+                           at KuaiCard.MSMQMessaging.BaseQueue.Send(Object msg) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\BaseQueue.cs:line 59
+                           at KuaiCard.MSMQMessaging.OrderBankNotify.Send(OrderBankInfo orderMessage) in F:\天运20150403\KuaiCard\Base\MSMQMessaging\OrderBankNotify.cs:line 48
+                           at KuaiCard.BLL.OrderNotifyBase.UpdatetoDB(Int32 oclass, Object obj, String agurl, Int32 times, String callbacktext, Boolean success, String errcode) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 60
+                           at KuaiCard.BLL.OrderNotifyBase.RespCallback(IAsyncResult asynchronousResult) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 235
+                           at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+                           at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+                           at System.Net.ContextAwareResult.FinishPostingAsyncOp()
+                           at System.Net.HttpWebRequest.BeginGetResponse(AsyncCallback callback, Object state)
+                           at KuaiCard.BLL.OrderNotifyBase.AsynchronousNotify(Int32 oclass, Object obj) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\OrderNotifyBase.cs:line 174

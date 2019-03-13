@@ -1,0 +1,2067 @@
+﻿
+--------------------------------------------------
+Path              = /alipayweb/send.aspx?orderid=15051303281173010504&orderamt=100.00
+Time              = 2015-05-13 03:28:12
+ClientIP          = 61.158.175.116
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.alipayweb_send_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_n15luqbt.1.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /alipayweb/send.aspx?orderid=15051303281173010504&orderamt=100.00
+Time              = 2015-05-13 03:28:12
+ClientIP          = 61.158.175.116
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.Gateway
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void initJavascript()
+                        
+StackTrace        =    at KuaiCard.Gateway.alipayWeb.Send.initJavascript() in F:\天运20150403\KuaiCard\KuaiCardGateway\alipayWeb\Send.aspx.cs:line 38
+                           at KuaiCard.Gateway.alipayWeb.Send.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\alipayWeb\Send.aspx.cs:line 16
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+--------------------------------------------------
+Path              = /alipayweb/send.aspx?orderid=15051303281173010504&orderamt=100.00
+Time              = 2015-05-13 03:28:12
+ClientIP          = 61.158.175.116
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.alipayweb_send_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_n15luqbt.1.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /alipayweb/send.aspx?orderid=15051303281173010504&orderamt=100.00
+Time              = 2015-05-13 03:28:13
+ClientIP          = 61.158.175.116
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.Gateway
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void initJavascript()
+                        
+StackTrace        =    at KuaiCard.Gateway.alipayWeb.Send.initJavascript() in F:\天运20150403\KuaiCard\KuaiCardGateway\alipayWeb\Send.aspx.cs:line 38
+                           at KuaiCard.Gateway.alipayWeb.Send.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\alipayWeb\Send.aspx.cs:line 16
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+--------------------------------------------------
+Path              = /pay/weixin_code/nativeqrcode.aspx?orderid=15051303301950110158&orderamt=100.00
+Time              = 2015-05-13 03:30:19
+ClientIP          = 61.158.175.116
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.pay_weixin_code_nativeqrcode_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_4q2eh5np.0.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /pay/weixin_code/nativeqrcode.aspx?orderid=15051303301950110158&orderamt=100.00
+Time              = 2015-05-13 03:30:19
+ClientIP          = 61.158.175.116
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.Gateway
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void initJavascript()
+                        
+StackTrace        =    at KuaiCard.Gateway.Pay.weixin_code.NativeQrCode.initJavascript() in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeQrCode.aspx.cs:line 31
+                           at KuaiCard.Gateway.Pay.weixin_code.NativeQrCode.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeQrCode.aspx.cs:line 17
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+--------------------------------------------------
+Path              = /pay/weixin_code/nativeqrcode.aspx?orderid=15051303301950110158&orderamt=100.00
+Time              = 2015-05-13 03:30:20
+ClientIP          = 61.158.175.116
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.pay_weixin_code_nativeqrcode_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_4q2eh5np.0.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /pay/weixin_code/nativeqrcode.aspx?orderid=15051303301950110158&orderamt=100.00
+Time              = 2015-05-13 03:30:20
+ClientIP          = 61.158.175.116
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.Gateway
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void initJavascript()
+                        
+StackTrace        =    at KuaiCard.Gateway.Pay.weixin_code.NativeQrCode.initJavascript() in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeQrCode.aspx.cs:line 31
+                           at KuaiCard.Gateway.Pay.weixin_code.NativeQrCode.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeQrCode.aspx.cs:line 17
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+--------------------------------------------------
+Path              = /pay/weixin_code/nativeqrcode.aspx?orderid=15051306224035110904&orderamt=20.00
+Time              = 2015-05-13 06:22:41
+ClientIP          = 222.89.248.168
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.pay_weixin_code_nativeqrcode_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_4q2eh5np.0.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /pay/weixin_code/nativeqrcode.aspx?orderid=15051306224035110904&orderamt=20.00
+Time              = 2015-05-13 06:22:41
+ClientIP          = 222.89.248.168
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.Gateway
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void initJavascript()
+                        
+StackTrace        =    at KuaiCard.Gateway.Pay.weixin_code.NativeQrCode.initJavascript() in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeQrCode.aspx.cs:line 31
+                           at KuaiCard.Gateway.Pay.weixin_code.NativeQrCode.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeQrCode.aspx.cs:line 17
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+--------------------------------------------------
+Path              = /pay/weixin_code/nativeqrcode.aspx?orderid=15051306224035110904&orderamt=20.00
+Time              = 2015-05-13 06:22:41
+ClientIP          = 222.89.248.168
+Type              = System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message           = Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source            = System.Web
+HelpLink          = 
+ReflectionInfo    = WebEventCode : 0
+                        ErrorCode : -2147467259
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean HandleError(System.Exception)
+                        
+StackTrace        =    at System.Web.UI.Page.HandleError(Exception e)
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+                           at System.Web.UI.Page.ProcessRequest()
+                           at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+                           at System.Web.UI.Page.ProcessRequest(HttpContext context)
+                           at ASP.pay_weixin_code_nativeqrcode_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\4d76f3e2\848a1231\App_Web_4q2eh5np.0.cs:line 0
+                           at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+                           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------
+Path              = /pay/weixin_code/nativeqrcode.aspx?orderid=15051306224035110904&orderamt=20.00
+Time              = 2015-05-13 06:22:41
+ClientIP          = 222.89.248.168
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.Gateway
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Void initJavascript()
+                        
+StackTrace        =    at KuaiCard.Gateway.Pay.weixin_code.NativeQrCode.initJavascript() in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeQrCode.aspx.cs:line 31
+                           at KuaiCard.Gateway.Pay.weixin_code.NativeQrCode.Page_Load(Object sender, EventArgs e) in F:\天运20150403\KuaiCard\KuaiCardGateway\Pay\weixin_code\NativeQrCode.aspx.cs:line 17
+                           at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+                           at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+                           at System.Web.UI.Control.OnLoad(EventArgs e)
+                           at System.Web.UI.Control.LoadRecursive()
+                           at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+--------------------------------------------------
+Path              = /cardReceive.aspx?type=2&parter=1102&cardno=8013353011987937&cardpwd=38441686&value=30&restrict=0&orderid=50513402251711165&callbackurl=http://183.131.80.113:8080/paycallback/ykpaycard.html&sign=34787ee47c93a620a7eaab0fa2929d4c&aagent=1024
+Time              = 2015-05-13 11:10:27
+ClientIP          = 183.131.80.113
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.ETAPI
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String get_suppAccount()
+                        
+StackTrace        =    at KuaiCard.ETAPI.ETAPIBase.get_suppAccount() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\ETAPIBase.cs:line 30
+                           at KuaiCard.ETAPI.huiyuan.Card.CardSend(String _orderid, String _cardno, String _cardpwd, Int32 _typeId, Int32 cardvalue, String& errorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\huiyuan\card.cs:line 51
+                           at KuaiCard.ETAPI.SellFactory.SellCard(SupplierCode supp, String orderid, Int32 cardtype, String cardno, String cardpass, String attach, Int32 cardfacevalue, String& supporderid, String& supperrorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\SellFactory.cs:line 84
+
+--------------------------------------------------
+Path              = /cardReceive.aspx?type=2&parter=1102&cardno=8013353011987937&cardpwd=38441686&value=30&restrict=0&orderid=50513403073281166&callbackurl=http://183.131.80.113:8080/paycallback/ykpaycard.html&sign=d848fe63364b04f28066a8714b218bef&aagent=1024
+Time              = 2015-05-13 11:11:49
+ClientIP          = 183.131.80.113
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.ETAPI
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String get_suppAccount()
+                        
+StackTrace        =    at KuaiCard.ETAPI.ETAPIBase.get_suppAccount() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\ETAPIBase.cs:line 30
+                           at KuaiCard.ETAPI.huiyuan.Card.CardSend(String _orderid, String _cardno, String _cardpwd, Int32 _typeId, Int32 cardvalue, String& errorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\huiyuan\card.cs:line 51
+                           at KuaiCard.ETAPI.SellFactory.SellCard(SupplierCode supp, String orderid, Int32 cardtype, String cardno, String cardpass, String attach, Int32 cardfacevalue, String& supporderid, String& supperrorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\SellFactory.cs:line 84
+
+--------------------------------------------------
+Path              = /cardReceive.aspx?type=2&parter=1102&cardno=8013353011987937&cardpwd=38441686&value=30&restrict=0&orderid=50513403978901167&callbackurl=http://183.131.80.113:8080/paycallback/ykpaycard.html&sign=da645e947a8a70b7d86d9c4f5e60f10c&aagent=1024
+Time              = 2015-05-13 11:13:20
+ClientIP          = 183.131.80.113
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.ETAPI
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String get_suppAccount()
+                        
+StackTrace        =    at KuaiCard.ETAPI.ETAPIBase.get_suppAccount() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\ETAPIBase.cs:line 30
+                           at KuaiCard.ETAPI.huiyuan.Card.CardSend(String _orderid, String _cardno, String _cardpwd, Int32 _typeId, Int32 cardvalue, String& errorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\huiyuan\card.cs:line 51
+                           at KuaiCard.ETAPI.SellFactory.SellCard(SupplierCode supp, String orderid, Int32 cardtype, String cardno, String cardpass, String attach, Int32 cardfacevalue, String& supporderid, String& supperrorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\SellFactory.cs:line 84
+
+--------------------------------------------------
+Path              = /cardReceive.aspx?type=2&parter=1102&cardno=8013353011987937&cardpwd=38441686&value=30&restrict=0&orderid=50513404926561169&callbackurl=http://183.131.80.113:8080/paycallback/ykpaycard.html&sign=8a393ca15102da372689718cfcdbf3c6&aagent=1024
+Time              = 2015-05-13 11:14:55
+ClientIP          = 183.131.80.113
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.ETAPI
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String get_suppAccount()
+                        
+StackTrace        =    at KuaiCard.ETAPI.ETAPIBase.get_suppAccount() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\ETAPIBase.cs:line 30
+                           at KuaiCard.ETAPI.huiyuan.Card.CardSend(String _orderid, String _cardno, String _cardpwd, Int32 _typeId, Int32 cardvalue, String& errorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\huiyuan\card.cs:line 51
+                           at KuaiCard.ETAPI.SellFactory.SellCard(SupplierCode supp, String orderid, Int32 cardtype, String cardno, String cardpass, String attach, Int32 cardfacevalue, String& supporderid, String& supperrorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\SellFactory.cs:line 84
+
+--------------------------------------------------
+Path              = /cardReceive.aspx?type=2&parter=1102&cardno=8013353011987937&cardpwd=38441686&value=30&restrict=0&orderid=50513405743281172&callbackurl=http://183.131.80.113:8080/paycallback/ykpaycard.html&sign=bb5afaa87b331e321b5f54c8962a8db2&aagent=1024
+Time              = 2015-05-13 11:16:16
+ClientIP          = 183.131.80.113
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.ETAPI
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String get_suppAccount()
+                        
+StackTrace        =    at KuaiCard.ETAPI.ETAPIBase.get_suppAccount() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\ETAPIBase.cs:line 30
+                           at KuaiCard.ETAPI.huiyuan.Card.CardSend(String _orderid, String _cardno, String _cardpwd, Int32 _typeId, Int32 cardvalue, String& errorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\huiyuan\card.cs:line 51
+                           at KuaiCard.ETAPI.SellFactory.SellCard(SupplierCode supp, String orderid, Int32 cardtype, String cardno, String cardpass, String attach, Int32 cardfacevalue, String& supporderid, String& supperrorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\SellFactory.cs:line 84
+
+--------------------------------------------------
+Path              = /cardReceive.aspx?type=2&parter=1102&cardno=8013353011987937&cardpwd=38441686&value=30&restrict=0&orderid=50513406503901173&callbackurl=http://183.131.80.113:8080/paycallback/ykpaycard.html&sign=9971f1535f71aea06345b5f7c39dd316&aagent=1024
+Time              = 2015-05-13 11:17:32
+ClientIP          = 183.131.80.113
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.ETAPI
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String get_suppAccount()
+                        
+StackTrace        =    at KuaiCard.ETAPI.ETAPIBase.get_suppAccount() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\ETAPIBase.cs:line 30
+                           at KuaiCard.ETAPI.huiyuan.Card.CardSend(String _orderid, String _cardno, String _cardpwd, Int32 _typeId, Int32 cardvalue, String& errorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\huiyuan\card.cs:line 51
+                           at KuaiCard.ETAPI.SellFactory.SellCard(SupplierCode supp, String orderid, Int32 cardtype, String cardno, String cardpass, String attach, Int32 cardfacevalue, String& supporderid, String& supperrorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\SellFactory.cs:line 84
+
+--------------------------------------------------
+Path              = /cardReceive.aspx?type=2&parter=1102&cardno=8013353011987937&cardpwd=38441686&value=30&restrict=0&orderid=50513410119681174&callbackurl=http://183.131.80.113:8080/paycallback/ykpaycard.html&sign=e17a952f7da91f177ba3443dad66614a&aagent=1024
+Time              = 2015-05-13 11:23:34
+ClientIP          = 183.131.80.113
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.ETAPI
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String get_suppAccount()
+                        
+StackTrace        =    at KuaiCard.ETAPI.ETAPIBase.get_suppAccount() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\ETAPIBase.cs:line 30
+                           at KuaiCard.ETAPI.huiyuan.Card.CardSend(String _orderid, String _cardno, String _cardpwd, Int32 _typeId, Int32 cardvalue, String& errorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\huiyuan\card.cs:line 51
+                           at KuaiCard.ETAPI.SellFactory.SellCard(SupplierCode supp, String orderid, Int32 cardtype, String cardno, String cardpass, String attach, Int32 cardfacevalue, String& supporderid, String& supperrorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\SellFactory.cs:line 84
+
+--------------------------------------------------
+Path              = /cardReceive.aspx?type=2&parter=1102&cardno=8013353011987937&cardpwd=38441686&value=30&restrict=0&orderid=50513421218901175&callbackurl=http://183.131.80.113:8080/paycallback/ykpaycard.html&sign=a36caca09a42b700b6c5ed245da5bfb8&aagent=1024
+Time              = 2015-05-13 11:42:05
+ClientIP          = 183.131.80.113
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.ETAPI
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String get_suppAccount()
+                        
+StackTrace        =    at KuaiCard.ETAPI.ETAPIBase.get_suppAccount() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\ETAPIBase.cs:line 30
+                           at KuaiCard.ETAPI.huiyuan.Card.CardSend(String _orderid, String _cardno, String _cardpwd, Int32 _typeId, Int32 cardvalue, String& errorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\huiyuan\card.cs:line 51
+                           at KuaiCard.ETAPI.SellFactory.SellCard(SupplierCode supp, String orderid, Int32 cardtype, String cardno, String cardpass, String attach, Int32 cardfacevalue, String& supporderid, String& supperrorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\SellFactory.cs:line 84
+
+--------------------------------------------------
+Path              = /cardReceive.aspx?type=2&parter=1102&cardno=8013353011987937&cardpwd=38441686&value=30&restrict=0&orderid=50513480243121202&callbackurl=http://183.131.80.113:8080/paycallback/ykpaycard.html&sign=c5f3c5f9dc51cb07c9044126d3d2bd7d&aagent=1024
+Time              = 2015-05-13 13:20:26
+ClientIP          = 183.131.80.113
+Type              = System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Object reference not set to an instance of an object.
+Source            = KuaiCard.ETAPI
+HelpLink          = 
+ReflectionInfo    = Data : System.Collections.ListDictionaryInternal
+                        TargetSite : System.String get_suppAccount()
+                        
+StackTrace        =    at KuaiCard.ETAPI.ETAPIBase.get_suppAccount() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\ETAPIBase.cs:line 30
+                           at KuaiCard.ETAPI.huiyuan.Card.CardSend(String _orderid, String _cardno, String _cardpwd, Int32 _typeId, Int32 cardvalue, String& errorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\huiyuan\card.cs:line 51
+                           at KuaiCard.ETAPI.SellFactory.SellCard(SupplierCode supp, String orderid, Int32 cardtype, String cardno, String cardpass, String attach, Int32 cardfacevalue, String& supporderid, String& supperrorcode, String& errormsg) in F:\天运20150403\KuaiCard\KuaiCardETAPI\Base\SellFactory.cs:line 84
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 14:58:23
+ClientIP          = 223.246.177.101
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 14:58:32
+ClientIP          = 223.246.177.101
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:00:49
+ClientIP          = 139.205.19.0
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:11
+ClientIP          = 118.114.160.84
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:39
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:40
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:40
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:41
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:41
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:42
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:42
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:43
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:43
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:44
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:44
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:44
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:45
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:45
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:45
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:46
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:46
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:46
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:47
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:47
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:47
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:47
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:48
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:48
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:48
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:48
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:49
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:49
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:49
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:49
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:50
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:50
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:50
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:50
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:50
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:51
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:51
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:51
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:52
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:52
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:52
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:52
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:53
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:53
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:53
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:53
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:54
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:54
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:54
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:54
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:54
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:55
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:55
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:55
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:56
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:56
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:56
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:56
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:56
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:56
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:57
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:57
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:57
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:57
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:58
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:58
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:58
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:58
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:58
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:59
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:59
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:59
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:59
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:12:59
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:00
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:00
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:00
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:00
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:00
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:01
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:01
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:01
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:02
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:02
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:02
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:02
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:02
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:02
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:03
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:03
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:03
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:03
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:04
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:04
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:04
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:05
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:05
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:05
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:05
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:05
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317
+
+--------------------------------------------------
+Path              = /return/dinpay/bank_return.aspx
+Time              = 2015-05-13 16:13:05
+ClientIP          = 27.206.22.50
+Type              = System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message           = Thread was being aborted.
+Source            = KuaiCard.BLL
+HelpLink          = 
+ReflectionInfo    = ExceptionState : System.Web.HttpApplication+CancelModuleException
+                        Data : System.Collections.ListDictionaryInternal
+                        TargetSite : Boolean DoBankComplete(Int32, System.String, System.String, Int32, System.String, System.String, System.Decimal, System.Decimal, Boolean, Boolean, Boolean)
+                        
+StackTrace        =    at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn, Boolean isDeduct) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 582
+                           at KuaiCard.BLL.OrderBank.DoBankComplete(Int32 supplierId, String orderId, String supplierOrderId, Int32 status, String opstate, String msg, Decimal tranAMT, Decimal suppAmt, Boolean removecache, Boolean isreturn) in F:\天运20150403\KuaiCard\KuaiCardBLL\order\Bank\OrderBank.cs:line 594
+                           at KuaiCard.ETAPI.Dinpay.Bank.Notify() in F:\天运20150403\KuaiCard\KuaiCardETAPI\Dinpay\Bank.cs:line 317

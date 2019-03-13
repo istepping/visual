@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>根据层次关系查找节点</title>
+<style type="text/css">
+td{
+	font-size:14px;
+	width:80px;
+	height:30px;
+	text-align:center;
+	border-bottom:1px solid #666;
+	border-right:1px solid #666;
+	}
+table{
+	border-left:1px solid #666;
+	border-top:1px solid #666;
+	}
+body{text-align:center;}
+input{margin-top:5px;}
+</style>
+<script type="text/javascript">
+function checks(){
+	var tt=document.getElementById("myTable");
+	/*查找第二行第一个单元格内容*/
+	var s=tt.lastChild.firstChild.firstChild.innerHTML;
+	/*查找最后一行最后一个单元格内容
+	var s=tt.lastChild.lastChild.lastChild.innerHTML;
+	*/
+	/*查找最后一行第一个单元格内容
+	var s=tt.lastChild.firstChild.lastChild.innerHTML;
+	*/
+	alert(s);
+	}
+</script>
+</head>
+<body><table border="0" cellspacing="0" cellpadding="0" id="myTable">
+ <thead>
+    <td>姓名</td>
+    <td>课程</td>
+    <td>成绩</td>
+ </thead>
+ <tbody>
+  <tr>
+    <td>欧阳兰</td>
+    <td>语文</td>
+    <td>88</td>
+  </tr>
+  <tr>
+    <td>白杨</td>
+    <td>数学</td>
+    <td>96</td>
+  </tr>
+  </tbody>
+</table>
+<input name="btn" type="button" value="第二行第一个单元格内容" onclick="checks()" />
+</body>
+</html>

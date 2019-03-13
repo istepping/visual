@@ -1,0 +1,23 @@
+﻿ body
+ {
+   background:url(/images/1234.jpg);
+   margin:0 auto;
+   padding:0;
+   border:0;
+   background-repeat:inherit;
+ }
+ .center{
+position:absolute;
+left:40%;
+top: 30%;
+margin: -60px 0px 0px -60px;
+float:left;
+}
+.header
+{
+   
+    font-family:楷体_GB2312; 
+    font-size:16px; 
+    color:#FF0000;
+    width:328px;   
+}

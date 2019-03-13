@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>休闲网登录页面</title>
+<link href="login.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function check(){
+	var mail=document.getElementById("email").value;
+	if(mail==""){//检测Email是否为空
+		alert("Email不能为空");
+		document.getElementById("email").focus();
+		return false;
+		}
+	if(mail.indexOf("@")==-1 || mail.indexOf(".")==-1){
+		alert("Email格式不正确\n必须包含符号@和.");
+		document.getElementById("email").focus();
+		document.getElementById("email").select();
+		return false;
+		}
+		return true;
+	}
+function clearText(){
+	var mail=document.getElementById("email");
+	if(mail.value=="请输入正确的电子邮箱"){
+		mail.value="";
+		mail.style.borderColor="#ff0000";
+		}
+	}
+</script>
+</head>
+
+<body>
+<div id="header" class="main">
+  <div id="headerLeft"><img src="images/logo.gif"/></div>
+  <div id="headerRight">注册 | 登录 | 帮助</div>
+</div>
+<div  class="main">
+<table id="center" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><img src="images/dl_l_t.gif"/></td></tr>
+  <tr>
+    <td class="bg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td class="bold">登录休闲网</td>
+  </tr>
+  <form action="success.html" method="post" name="myform" onsubmit="return check()"><tr>
+    <td>Email：<input id="email" type="text"  class="inputs" value="请输入正确的电子邮箱" onfocus="clearText()"/></td>
+  </tr>
+  <tr>
+    <td>&nbsp;密码：<input id="pwd" type="password"   class="inputs"/></td>
+  </tr>
+  <tr>
+    <td style="height:35px; padding-left:30px;"><input name="btn" type="submit" value="登录" class="rb1" /></td>
+  </tr></form>
+</table>
+</td>
+  </tr>
+  <tr>
+    <td><img src="images/dl_l_b.gif" width="362" height="5" /></td></tr>
+</table>
+</div>
+<div id="footer" class="main"><a href="#">关于我们</a> | <a href="#">诚聘英才</a> |<a href="#"> 联系方式</a>  | <a href="#">帮助中心</a></div>
+</body>
+</html>

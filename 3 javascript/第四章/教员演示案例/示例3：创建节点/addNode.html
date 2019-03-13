@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>增加节点</title>
+<script type="text/javascript">
+function newNode(){
+	var oldNode=document.getElementById("sixty1"); //访问插入节点的位置
+	var image=document.createElement("img");       //创建一个图片节点
+	image.setAttribute("src","images/newimg.jpg");  //设置图片路径
+
+	document.body.insertBefore(image,oldNode);      //插入图片到sixty1前面
+	}
+function copyNode(){
+	var image=document.getElementById("sixty1"); //访问复制的节点
+	var copyImage=image.cloneNode(false);           //复制指定的节点
+	document.body.appendChild(copyImage);      //在页面最后增加节点
+	    
+	}
+</script>
+</head>
+
+<body>
+<h2>喜欢的水果</h2>
+<input id="b1" type="button" value="增加一幅图片" onclick="newNode()" />
+<input id="b2" type="button" value="复制原图" onclick="copyNode()" /><br />
+ <img src="images/sixty1.jpg" id="sixty1" alt="水果" />
+<img src="images/sixty2.jpg" id="sixty2" alt="果篮" />
+</body>
+</html>

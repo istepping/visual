@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>随鼠标滚动的广告图片</title>
+<style type="text/css">
+#main{text-align:center;}
+#adver{
+	position:absolute;
+	left:50px;
+	top:30px;
+	z-index:2;
+}
+</style>
+<script type="text/javascript">
+var adverTop; //层距页面顶端距离
+var adverLeft;
+var adverObject; //层对象
+function inix(){
+   adverObject=document.getElementById("adver"); //获得层对象
+   if(adverObject.currentStyle){
+   adverTop=parseInt(adverObject.currentStyle.top);
+   adverLeft=parseInt(adverObject.currentStyle.left);
+}
+else{
+	adverTop=parseInt(document.defaultView.getComputedStyle(adverObject,null).top);
+   adverLeft=parseInt(document.defaultView.getComputedStyle(adverObject,null).left);
+	}
+}
+function move(){
+adverObject.style.top=adverTop+parseInt(document.documentElement.scrollTop)+"px";
+adverObject.style.left=adverLeft+parseInt(document.documentElement.scrollLeft)+"px";
+}  
+window.onload=inix;
+window.onscroll=move;
+</script>
+</head>
+<body>
+<div id="adver"><img src="images/adv.jpg"/></div>
+<div id="main"><img src="images/main1.jpg"/><img src="images/main2.jpg"/><img src="images/main3.jpg"/></div>
+</body>
+</html>

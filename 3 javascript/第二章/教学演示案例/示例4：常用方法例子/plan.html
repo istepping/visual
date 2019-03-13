@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>window对象演示例子</title>
+<script type="text/javascript">
+/*弹出窗口*/
+function open_adv(){
+   window.open("adv.html");	
+}
+/*弹出固定大小窗口，并且无菜单栏等*/
+function open_fix_adv(){
+   window.open("adv.html","","height=380,width=320,toolbar=0,scrollbars=0,location=0,status=0,menubar=0,resizable=0");	
+}
+/*全屏显示*/
+function fullscreen(){
+	window.open("plan.html","","fullscreen=yes");
+}
+/*弹出确认消息框*/
+function confirm_msg(){
+    if(confirm("你相信自己是最棒的吗？")){
+	   alert("有信心必定会赢，没信心一定会输！");
+	}
+}
+/*关闭窗口*/
+function close_plan(){
+	window.close();	
+	}
+
+</script>
+</head>
+
+<body>
+<form action="" method="post">
+  <p>
+    <input name="open1" type="button" value="弹出窗口" onclick="open_adv()" /></p>
+  <p><input name="open2" type="button" value="弹出固定大小窗口，且无菜单栏等"  onclick="open_fix_adv()"/></p>
+  <p><input name="full" type="button" value="全屏显示"  onclick="fullscreen()"/></p>
+  <p><input name="con" type="button" value="打开确认窗口"  onclick="confirm_msg()"/></p>
+  <p><input name="c" type="button" value="关闭窗口" onclick="close_plan()"/></p>
+</form>
+</body>
+</html>

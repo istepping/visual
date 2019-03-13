@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>休闲网登录页面</title>
+<link href="login.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function check(){
+	var mail=document.getElementById("email").value;
+	if(mail==""){//检测Email是否为空
+		alert("Email不能为空");
+		return false;
+		}
+	if(mail.indexOf("@")==-1){
+		alert("Email格式不正确\n必须包含@");
+		return false;
+		}
+	if(mail.indexOf(".")==-1){
+		alert("Email格式不正确\n必须包含.");
+		return false;
+		}
+		return true;
+	}
+</script>
+</head>
+
+<body>
+<div id="header" class="main">
+  <div id="headerLeft"><img src="images/logo.gif"/></div>
+  <div id="headerRight">注册 | 登录 | 帮助</div>
+</div>
+<div  class="main">
+<table id="center" border="0" cellspacing="0" cellpadding="0">
+
+    <tr>
+    <td class="bold">祝贺你，登录休闲网成功！</td>
+  </tr>
+</table>
+</div>
+<div id="footer" class="main"><a href="#">关于我们</a> | <a href="#">诚聘英才</a> |<a href="#"> 联系方式</a>  | <a href="#">帮助中心</a></div>
+</body>
+</html>

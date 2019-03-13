@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ofcard_notify.aspx.cs" Inherits="KuaiCard.gateway.notify.ofcard_notify" %>
