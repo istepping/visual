@@ -5,7 +5,7 @@
     <title>注册</title>
     <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
     <link rel="stylesheet" href="register.css"/>
-    <link rel="script" href="register.js"/>
+    <script type="text/javascript" src="register.js"></script>
 </head>
 
 <body>
@@ -19,25 +19,37 @@
               <tr>
                   <td class="table">请填写您的Email地址:</td>
                   <td class="user_input">
-                      <input class="input_content"  id="input_email" type="email" onblur="checkEmail()"/><div class="right_text" id="text_email"></div>
+                      <input title="" class="input_content"  id="input_email" type="email" onblur="checkEmail()"/>
+                  </td>
+                  <td>
+                      <div class="right_text" id="text_email"></div>
                   </td>
               </tr>
               <tr>
                   <td class="table">请填写您在当当网的呢称:</td>
                   <td class="user_input">
-                      <input class="input_content"  id="input_nickName" type="text" onblur="checkNickName()"/><div class="right_text" id="text_nickName"></div>
+                      <input title="" class="input_content"  id="input_nickName" type="text" onblur="checkNickName()"/>
+                  </td>
+                  <td>
+                      <div class="right_text" id="text_nickName"></div>
                   </td>
               </tr>
               <tr>
                   <td class="table">设置密码:</td>
                   <td class="user_input">
-                      <input class="input_content"  id="input_password" type="password" onblur="checkPassword()"/><div class="right_text" id="text_password"></div>
+                      <input title="" class="input_content"  id="input_password" type="password" onblur="checkPassword()"/>
+                  </td>
+                  <td>
+                      <div class="right_text" id="text_password"></div>
                   </td>
               </tr>
               <tr>
                   <td class="table">再次输入您设置的密码:</td>
                   <td class="user_input">
-                      <input class="input_content"  id="input_password_again" type="email" onblur="checkPasswordAgain()"/><div class="right_text" id="text_password_again"></div>
+                      <input title="" class="input_content"  id="input_password_again" type="password" onblur="checkPasswordAgain()"/>
+                  </td>
+                  <td>
+                      <div class="right_text" id="text_password_again"></div>
                   </td>
               </tr>
           </table>

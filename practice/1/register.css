@@ -10,14 +10,18 @@
     color: red;
 }
 .table{
-    width: 15%;
+    width: 18%;
     height: 8%;
     background-color: #c9fff5;
     text-align: right;
 }
 .user_input{
-    width: 40%;
+    width: 20%;
 }
 .input_content{
     margin-left: 20pt;
+}
+.right_text{
+    margin-left: 10pt;
+    color: red;
 }

@@ -1,7 +1,8 @@
 function checkEmail() {
     console.log("checkEmail");
-    let email=$("#input_email").value;
-    let right_text=$("#text_email");
+    let email=document.getElementById("input_email").value;
+    let right_text=document.getElementById("text_email");
+    console.log(email);
     if(email===""){
         right_text.innerHTML="Email不能为空";
         return false;
@@ -14,15 +15,41 @@ function checkEmail() {
         right_text.innerHTML="Email格式不正确.必须包含.";
         return false;
     }
+    right_text.innerHTML="";
     return true;
 }
 function checkNickName() {
-    let nickName=$("#input_nickName").value;
-    let right_text=$("#text_nickName");
+    let nickName=document.getElementById("input_nickName").value;
+    let right_text=document.getElementById("text_nickName");
+    if(nickName===""){
+        right_text.innerHTML="昵称不能为空";
+        return false;
+    }
+    right_text.innerHTML="";
+    return true;
 }
 function checkPassword() {
-
+    let password=document.getElementById("input_password").value;
+    let right_text=document.getElementById("text_password");
+    if(password===""){
+        right_text.innerHTML="密码不能为空";
+        return false;
+    }
+    right_text.innerHTML="";
+    return true;
 }
 function checkPasswordAgain() {
-
+    let password=document.getElementById("input_password").value;
+    let passwordAgain=document.getElementById("input_password_again").value;
+    let right_text=document.getElementById("text_password_again");
+    if(passwordAgain===""){
+        right_text.innerHTML="密码不能为空";
+        return false;
+    }
+    if(passwordAgain!==password){
+        right_text.innerHTML="两次密码不一致";
+        return false;
+    }
+    right_text.innerHTML="";
+    return true;
 }
