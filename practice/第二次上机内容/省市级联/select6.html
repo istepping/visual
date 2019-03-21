@@ -1,43 +1,65 @@
 <HTML>
 <HEAD>
-<META http-equiv="Content-Type" content="text/html; charset=gb2312">
-<TITLE>¶¯Ì¬Ìí¼ÓÏÂÀ­ÁĞ±íÄÚÈİ</TITLE>
-<SCRIPT type="text/javascript">
-	//ĞèÒªÔÚ´ËÌîĞ´
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <TITLE>åŠ¨æ€æ·»åŠ ä¸‹æ‹‰åˆ—è¡¨å†…å®¹</TITLE>
+    <SCRIPT type="text/javascript">
+        //éœ€è¦åœ¨æ­¤å¡«å†™
+        let data = [{
+            name: 'ä¸­å›½',
+            city: ['åŒ—äº¬', 'ä¸Šæµ·', 'è¾½å®']
+        }, {
+            name: 'ç¾å›½',
+            city: ['çº½çº¦', 'æ´›æ‰çŸ¶', 'èŠåŠ å“¥']
+        }, {
+            name: 'è‹±å›½',
+            city: ['ä¼¦æ•¦', 'çˆ±ä¸å ¡', 'åŠ çš„å¤«']
+        }];
 
-</SCRIPT>
+        function showCity(select) {
+            let country = document.getElementsByName("country");
+            let cityList = document.getElementById("cityList");
+            let index = select.selectedIndex - 1;
+            let cities = data[index].city;
+            cityList.innerHTML = "";
+            for (let i = 0; i < cities.length; i++) {
+                cityList.add(new Option(cities[i], i));
+            }
+        }
+    </SCRIPT>
 </HEAD>
 
 <BODY>
-<FORM action="" method="get" name="myform"  >
-<TABLE width="381" border="0" cellspacing="0" cellpadding="0">
-  <TR>
-    <TD colspan="2"><IMG src="images/top.jpg"></TD>
-    </TR>
-  <TR>
-    <TD width="351" align="right">¹ú¼Ò£º</TD>
-    <TD width="642">
-	<SELECT name="country" onChange="showCity()">
-	  <OPTION>--ÇëÑ¡ÔñËùÊô¹ú¼Ò--</OPTION>
-	  <OPTION value="ÖĞ¹ú">ÖĞ¹ú</OPTION>
-	  <OPTION value="ÃÀ¹ú">ÃÀ¹ú</OPTION>
-	  <OPTION value="Ó¢¹ú">Ó¢¹ú</OPTION>
-	</SELECT>
-	</TD>
-  </TR>
-  <TR>
-    <TD align="right">Ê¡·İ/µØÇø:</TD>
-    <TD >
-	<SELECT name="cityList">
-	  <OPTION>--ÇëÑ¡ÔñËùÔÚÊ¡·İºÍµØÇø--</OPTION>
-	</SELECT>
-	</TD>
-  </TR>
-  <TR>
-    <TD colspan="2"><IMG  src="images/foot.jpg"></TD>
-   </TR>
-   <TR><TD align="center" colspan="2"><INPUT type="button" name="submit" value="Ìá½»×¢²á" ></TD></TR>
-</TABLE>
+<FORM action="" method="get" name="myform">
+    <TABLE width="381" border="0" cellspacing="0" cellpadding="0">
+        <TR>
+            <TD colspan="2"><IMG src="images/top.jpg"></TD>
+        </TR>
+        <TR>
+            <TD width="351" align="right">å›½å®¶ï¼š</TD>
+            <TD width="642">
+                <SELECT name="country" onChange="showCity(this)">
+                    <OPTION>--è¯·é€‰æ‹©æ‰€å±å›½å®¶--</OPTION>
+                    <OPTION value="ä¸­å›½">ä¸­å›½</OPTION>
+                    <OPTION value="ç¾å›½">ç¾å›½</OPTION>
+                    <OPTION value="è‹±å›½">è‹±å›½</OPTION>
+                </SELECT>
+            </TD>
+        </TR>
+        <TR>
+            <TD align="right">çœä»½/åœ°åŒº:</TD>
+            <TD>
+                <SELECT id="cityList">
+                    <OPTION>--è¯·é€‰æ‹©æ‰€åœ¨çœä»½å’Œåœ°åŒº--</OPTION>
+                </SELECT>
+            </TD>
+        </TR>
+        <TR>
+            <TD colspan="2"><IMG src="images/foot.jpg"></TD>
+        </TR>
+        <TR>
+            <TD align="center" colspan="2"><INPUT type="button" name="submit" value="æäº¤æ³¨å†Œ"></TD>
+        </TR>
+    </TABLE>
 
 </FORM>
 </BODY>
