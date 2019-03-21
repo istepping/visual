@@ -14,7 +14,7 @@
   </div>
   <div class="register">
       <p class="notification">以下均为必填项</p>
-      <form class="register_form" method="post" action="">
+      <form class="register_form" method="post" action="home/homework.html">
           <table>
               <tr>
                   <td class="table">请填写您的Email地址:</td>
@@ -53,7 +53,21 @@
                   </td>
               </tr>
           </table>
+          <div class="register_bottom">
+              <label>
+                  <input type="checkbox" onclick="if (this.checked) {enable()} else {disable()}">
+              </label>
+              <div>我已阅读并同意《</div>
+              <a class="user_protocol" href="https://www.baidu.com">当当网交易条款</a>
+              <div>》和《</div>
+              <a class="user_protocol" href="https://www.baidu.com">当当网用户使用条款</a><div>》</div>
+          </div>
+          <input class="form_button" type="reset" value="重置">
+          <input id="submit_button" class="form_button" disabled="disabled" type="submit" value="提交">
       </form>
+  </div>
+  <div class="foot">
+      <img src="../images/foot.jpg" style="width: 100%; height: 100%;">
   </div>
 </body>
 </html>

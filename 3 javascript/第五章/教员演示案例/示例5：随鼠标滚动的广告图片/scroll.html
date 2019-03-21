@@ -30,6 +30,7 @@ else{
 function move(){
 adverObject.style.top=adverTop+parseInt(document.documentElement.scrollTop)+"px";
 adverObject.style.left=adverLeft+parseInt(document.documentElement.scrollLeft)+"px";
+console.log(document.documentElement.scrollTop);
 }  
 window.onload=inix;
 window.onscroll=move;
